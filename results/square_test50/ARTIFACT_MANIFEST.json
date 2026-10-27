@@ -1,0 +1,100 @@
+{
+  "terminal_artifacts": {
+    "act300k": [
+      {
+        "name": "config.json",
+        "bytes": 1852,
+        "sha256": "f14b856b297ab76a6bf3335a462f0c03a7dd397ed6a5622a70b1ee464aff9f88",
+        "public_payload": true
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 206544128,
+        "sha256": "a4f6b2d0c632d2b08c74a58eaabaf38c70451fb93f2b3a66d77ccca9f0fb7e98",
+        "public_payload": false
+      },
+      {
+        "name": "policy_postprocessor.json",
+        "bytes": 660,
+        "sha256": "3b6882c2b0600c899184812306ebdd54a6939c943f818cff1b56c37c8c80318c",
+        "public_payload": true
+      },
+      {
+        "name": "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+        "bytes": 8072,
+        "sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+        "public_payload": true
+      },
+      {
+        "name": "policy_preprocessor.json",
+        "bytes": 1332,
+        "sha256": "1a7705925f7300b192137540bb856ade1abde4a77d13808d003b629e5872ab26",
+        "public_payload": true
+      },
+      {
+        "name": "policy_preprocessor_step_3_normalizer_processor.safetensors",
+        "bytes": 8016,
+        "sha256": "b24ce119236cc29271780c3e0bff8d9ed9191467477f80c7e245e0d387b70629",
+        "public_payload": true
+      },
+      {
+        "name": "train_config.json",
+        "bytes": 7844,
+        "sha256": "e754ff88d562925201512406b50df22b4970147641893fd11c197e14791aa1ba",
+        "public_payload": true
+      }
+    ],
+    "dp480k": [
+      {
+        "name": "config.json",
+        "bytes": 2291,
+        "sha256": "265ecbbe0f631e010847d89fc7044d948e987a4bcb547869855a62186b152344",
+        "public_payload": true
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 1212821552,
+        "sha256": "bdf12c84091fa27ba7e206ea4ea65c2b267251770bdb91fff0636fc053cb3e42",
+        "public_payload": false
+      },
+      {
+        "name": "policy_postprocessor.json",
+        "bytes": 658,
+        "sha256": "f509a69d16c114547e57bfc08fad14fa222b1d44833d5a742e40be3f679b443f",
+        "public_payload": true
+      },
+      {
+        "name": "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+        "bytes": 8072,
+        "sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+        "public_payload": true
+      },
+      {
+        "name": "policy_preprocessor.json",
+        "bytes": 1330,
+        "sha256": "bd81746ac98c65de15fa9d989cb1ae57c29eb3b8848e7f1d6a68aadee2334bf3",
+        "public_payload": true
+      },
+      {
+        "name": "policy_preprocessor_step_3_normalizer_processor.safetensors",
+        "bytes": 8080,
+        "sha256": "da4417605d6780fee2a7b34bbb4ce2c470a29c7ab886c07b35c9a51d6c41d7c9",
+        "public_payload": true
+      },
+      {
+        "name": "train_config.json",
+        "bytes": 8307,
+        "sha256": "b46fdabcd191ddacda5fae6c2d5f0f222e3cbf7912e7fc7335237829255a8cad",
+        "public_payload": true
+      }
+    ]
+  },
+  "full_model_and_dataset_download": "Not published yet; no download or full training reproducibility is claimed.",
+  "training_dataset": {
+    "name": "square_geomagic_xy50_v1_convert",
+    "episodes": 50,
+    "frames": 48272,
+    "fps": 20
+  },
+  "lerobot_commit": "3f2c29ef7e44b1ddccbcda3b6a63939e53639e9e"
+}

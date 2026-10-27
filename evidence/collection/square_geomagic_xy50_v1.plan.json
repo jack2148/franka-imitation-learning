@@ -1,0 +1,1305 @@
+{
+  "status": "FROZEN",
+  "content_sha256": "48bae8997f1aca79c5d8a6513f377d9c24589cf800b99e66497148e925e3318b",
+  "plan_name": "square_geomagic_xy50_v1",
+  "configuration": {
+    "plan_name": "square_geomagic_xy50_v1",
+    "workspace": {
+      "x_min": 0.445,
+      "x_max": 0.485,
+      "y_min": -0.1425,
+      "y_max": -0.0825
+    },
+    "workspace_source": "Nine-point manual Geomagic validation candidate: 40 x 60 mm",
+    "grid": {
+      "rows": 5,
+      "cols": 5,
+      "samples_per_cell": 2
+    },
+    "cell_sampling_margin_fraction": 0.02,
+    "seed": 20261007,
+    "shuffle_seed": 20261008,
+    "object_z": 0.495,
+    "object_yaw_world_rad": 1.5707963267948966,
+    "evaluation_plan": "square_geomagic_xy_eval20_v1",
+    "default_raw_root": "mimicgen_square/datasets/raw/restricted30_geomagic/square_geomagic_xy50_v1",
+    "workspace_validation_sha256": "1192386c3ae6ee001ebbd5368598a97c58b70f2c3f61e3357357d40a725650a7"
+  },
+  "seed": 20261007,
+  "shuffle_seed": 20261008,
+  "workspace": {
+    "x_min": 0.445,
+    "x_max": 0.485,
+    "y_min": -0.1425,
+    "y_max": -0.0825
+  },
+  "grid": {
+    "rows": 5,
+    "cols": 5,
+    "samples_per_cell": 2
+  },
+  "object_z": 0.495,
+  "object_yaw_world_rad": 1.5707963267948966,
+  "cell_sampling_margin_fraction": 0.02,
+  "fixed_context": {
+    "object_z": 0.495,
+    "effective_configuration": {
+      "reference_mapping": false,
+      "deadband": {
+        "enabled": true,
+        "translation_on_m": 0.0002,
+        "translation_off_m": 0.0001,
+        "rotation_on_rad": 0.008726646259971648,
+        "rotation_off_rad": 0.004363323129985824,
+        "dwell_s": 0.03,
+        "quiet_dwell_s": 0.05,
+        "engage_ramp_s": 0.03,
+        "tuning_status": "TUNING_PENDING"
+      },
+      "haptics_enabled": true
+    },
+    "wrist_camera": {
+      "pos": [
+        0.07,
+        -0.1,
+        0.0
+      ],
+      "quat": [
+        0.26693358,
+        0.96371493,
+        0.0,
+        0.0
+      ],
+      "fovy": 90.0
+    },
+    "source_sha256": {
+      "mimic/environments/mimicgen_square/scene.xml": "6cb63958433fccc88f45218d0ff002efd030ae5ab10163e35ba7f5421f08f0af",
+      "mimic/environments/mimicgen_square/config.py": "1e972fb8fa74ed1b301c7cb5256128a7f31b00c50952127508c0e0491040d52f",
+      "mimic/environments/mimicgen_square/task.py": "4c807eead821e7a1c93bf44647578d5e0316afc5576152c7c96abdfdb4c23c4c",
+      "mimic/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/fr3.xml": "17264b0f14fe4c2512c8a22bf0389628db9e93cf04d13a1416734111fa97ac81",
+      "mimic/environments/mimicgen_square/assets/square_nut.xml": "dc596d01baa8bd742e679428ed73c390b09bc4900f2fd5cf3f7cf12be3e8352d",
+      "geomagic/teleop/pose_mapper.py": "86297847ba92c30fca3baf0d2708ee2d44ab77a99e132cb90fd88d955a4e52bb",
+      "geomagic/teleop/pipeline.py": "411f3294a2df90ea83890fd7e13236a5a4763181cc204cdff2f5978c3876dc35",
+      "geomagic/teleop/fr3_target_controller.py": "50bde069c909a353893c2563108a07ea716e6006bba0dd9e67f3de5f172426d9",
+      "geomagic/teleop/robot_helpers.py": "21d11d0c65d40a169a7d3112a9d8384b7443d661389aadd52f6f03f9896e6a38",
+      "omy_franka_teleop/launch/FR3_omy_bridge.py": "52344486256529403f36726caae13909d23cd2c929ae9f7c465090eaf5964f2f",
+      "mimic/teleop/omy_fr3/launch/FR3_omy_bridge.py": "3b92baa12485a6a156fac31fd7b566c8ce2f39d70bd4d837b02badb89c424bfa",
+      "geomagic/leader/teleop_backend.py": "9945ec6049b7784dc5f4c3f72ee3834d503000d51dd3fedd3cd1ca3786da54ac",
+      "mimic/runtime/ui_camera_layout.py": "2ac8c291baf1239bea25ad29da5f78fb0b84d00282b52f414eee3fd00192a1f5",
+      "geomagic/teleop/anti_windup.py": "9f0eeaf74ae9f65fa1abd2eea63ccadb1cb521990be2cc8da087f12d80dad2d9",
+      "geomagic/teleop/gravity_support.py": "eb3caa5acbc0b5ca714bf5b617d031bf92085a3f1da0110ec848351db2b5aa37",
+      "geomagic/teleop/input_deadband.py": "2900ebcbe6a0864c0183e0f6cae38e0da24e9a151c0d036737ff028002765501",
+      "geomagic/config/input_deadband.json": "aeb304931f623cdb7fffcba48f54e346efb27598834191a4b9374c3ef8107980",
+      "geomagic/teleop/runtime_rotation.py": "0782354c2b491958d07d837281c1c43413777553f32a12fef6415aa4e8e3a12c",
+      "geomagic/standalone/haptics.py": "cf81208c5da253de91796f759e43d3ba52947717584a1ba0b91b15cd388ddd2e",
+      "geomagic/standalone/haptic_config.py": "ef9c7f12eea320e73da2870015eb749ca524e77d7cd09328a7c3d9e2cf2e1623",
+      "geomagic/standalone/haptic_release.py": "8b3b337419304e6b1cc458f1ed988c116bb988ea65f1c85454857adb6aa48fac",
+      "geomagic/standalone/ui_haptics.py": "a831eb74bfff0beaccc177cac5c7c89d69c8ce49559a11ac2e67fbfe1c43b5f6",
+      "geomagic/device/teleop_geo_force.h": "773a7efff4c389bd4dd00842a1dd3a871bb58477e31b2890001330ed4a29f6c0",
+      "geomagic/device/teleop_geo_hdapi.cpp": "cda7e27cceaa2995d58f3066f75b5a6c5fc25cb34249bf18dd8d3da4e91d7804"
+    }
+  },
+  "training_plan_sha256": null,
+  "states": [
+    {
+      "plan_index": 0,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c0s0",
+      "cell_id": "cell_00",
+      "cell_row": 0,
+      "cell_col": 0,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.44691441697020573,
+      "y": -0.13274072559173525,
+      "status": "planned",
+      "collection_order": 17
+    },
+    {
+      "plan_index": 1,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c0s1",
+      "cell_id": "cell_00",
+      "cell_row": 0,
+      "cell_col": 0,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.4457457573294412,
+      "y": -0.1352451767387194,
+      "status": "planned",
+      "collection_order": 35
+    },
+    {
+      "plan_index": 2,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c1s0",
+      "cell_id": "cell_01",
+      "cell_row": 0,
+      "cell_col": 1,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.458564816464239,
+      "y": -0.1357603187874515,
+      "status": "planned",
+      "collection_order": 48
+    },
+    {
+      "plan_index": 3,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c1s1",
+      "cell_id": "cell_01",
+      "cell_row": 0,
+      "cell_col": 1,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.4539385621803319,
+      "y": -0.13229676528608364,
+      "status": "planned",
+      "collection_order": 1
+    },
+    {
+      "plan_index": 4,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c2s0",
+      "cell_id": "cell_02",
+      "cell_row": 0,
+      "cell_col": 2,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.46214576737407576,
+      "y": -0.13585663403119522,
+      "status": "planned",
+      "collection_order": 3
+    },
+    {
+      "plan_index": 5,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c2s1",
+      "cell_id": "cell_02",
+      "cell_row": 0,
+      "cell_col": 2,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.46693350329027994,
+      "y": -0.13279610323020236,
+      "status": "planned",
+      "collection_order": 43
+    },
+    {
+      "plan_index": 6,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c3s0",
+      "cell_id": "cell_03",
+      "cell_row": 0,
+      "cell_col": 3,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.4728050146418075,
+      "y": -0.13080671576450761,
+      "status": "planned",
+      "collection_order": 27
+    },
+    {
+      "plan_index": 7,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c3s1",
+      "cell_id": "cell_03",
+      "cell_row": 0,
+      "cell_col": 3,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.47401403832571726,
+      "y": -0.13172261927124831,
+      "status": "planned",
+      "collection_order": 38
+    },
+    {
+      "plan_index": 8,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c4s0",
+      "cell_id": "cell_04",
+      "cell_row": 0,
+      "cell_col": 4,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.4780798455408632,
+      "y": -0.13078179340478874,
+      "status": "planned",
+      "collection_order": 9
+    },
+    {
+      "plan_index": 9,
+      "planned_state_id": "square_geomagic_xy50_v1:r0c4s1",
+      "cell_id": "cell_04",
+      "cell_row": 0,
+      "cell_col": 4,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1425,
+        "y_max": -0.1305
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.14226,
+        "y_max": -0.13074
+      },
+      "x": 0.4784359043794285,
+      "y": -0.14099356704864216,
+      "status": "planned",
+      "collection_order": 45
+    },
+    {
+      "plan_index": 10,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c0s0",
+      "cell_id": "cell_10",
+      "cell_row": 1,
+      "cell_col": 0,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.4504979960935826,
+      "y": -0.11891667626129894,
+      "status": "planned",
+      "collection_order": 6
+    },
+    {
+      "plan_index": 11,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c0s1",
+      "cell_id": "cell_10",
+      "cell_row": 1,
+      "cell_col": 0,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.4497698337259331,
+      "y": -0.11998126751793582,
+      "status": "planned",
+      "collection_order": 16
+    },
+    {
+      "plan_index": 12,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c1s0",
+      "cell_id": "cell_11",
+      "cell_row": 1,
+      "cell_col": 1,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.45318043425926097,
+      "y": -0.12637013137448386,
+      "status": "planned",
+      "collection_order": 22
+    },
+    {
+      "plan_index": 13,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c1s1",
+      "cell_id": "cell_11",
+      "cell_row": 1,
+      "cell_col": 1,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.45884779845498713,
+      "y": -0.12267256773542456,
+      "status": "planned",
+      "collection_order": 42
+    },
+    {
+      "plan_index": 14,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c2s0",
+      "cell_id": "cell_12",
+      "cell_row": 1,
+      "cell_col": 2,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.4627993756797824,
+      "y": -0.12959126512111915,
+      "status": "planned",
+      "collection_order": 32
+    },
+    {
+      "plan_index": 15,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c2s1",
+      "cell_id": "cell_12",
+      "cell_row": 1,
+      "cell_col": 2,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.46675255085490047,
+      "y": -0.12980001316879622,
+      "status": "planned",
+      "collection_order": 46
+    },
+    {
+      "plan_index": 16,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c3s0",
+      "cell_id": "cell_13",
+      "cell_row": 1,
+      "cell_col": 3,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.4767486836454398,
+      "y": -0.1243727175584525,
+      "status": "planned",
+      "collection_order": 7
+    },
+    {
+      "plan_index": 17,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c3s1",
+      "cell_id": "cell_13",
+      "cell_row": 1,
+      "cell_col": 3,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.4764947680297674,
+      "y": -0.12502401067703178,
+      "status": "planned",
+      "collection_order": 44
+    },
+    {
+      "plan_index": 18,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c4s0",
+      "cell_id": "cell_14",
+      "cell_row": 1,
+      "cell_col": 4,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.48206876441127156,
+      "y": -0.12693252891126872,
+      "status": "planned",
+      "collection_order": 49
+    },
+    {
+      "plan_index": 19,
+      "planned_state_id": "square_geomagic_xy50_v1:r1c4s1",
+      "cell_id": "cell_14",
+      "cell_row": 1,
+      "cell_col": 4,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1305,
+        "y_max": -0.1185
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.13026000000000001,
+        "y_max": -0.11874
+      },
+      "x": 0.48403893024386335,
+      "y": -0.12302095381281998,
+      "status": "planned",
+      "collection_order": 41
+    },
+    {
+      "plan_index": 20,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c0s0",
+      "cell_id": "cell_20",
+      "cell_row": 2,
+      "cell_col": 0,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4455475934642032,
+      "y": -0.11295372546451785,
+      "status": "planned",
+      "collection_order": 19
+    },
+    {
+      "plan_index": 21,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c0s1",
+      "cell_id": "cell_20",
+      "cell_row": 2,
+      "cell_col": 0,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4490576163632243,
+      "y": -0.11387426892730088,
+      "status": "planned",
+      "collection_order": 23
+    },
+    {
+      "plan_index": 22,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c1s0",
+      "cell_id": "cell_21",
+      "cell_row": 2,
+      "cell_col": 1,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.45879264482003024,
+      "y": -0.11370900368515004,
+      "status": "planned",
+      "collection_order": 14
+    },
+    {
+      "plan_index": 23,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c1s1",
+      "cell_id": "cell_21",
+      "cell_row": 2,
+      "cell_col": 1,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4548699655532667,
+      "y": -0.11206382131845402,
+      "status": "planned",
+      "collection_order": 33
+    },
+    {
+      "plan_index": 24,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c2s0",
+      "cell_id": "cell_22",
+      "cell_row": 2,
+      "cell_col": 2,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.46537345764485194,
+      "y": -0.11101490464593403,
+      "status": "planned",
+      "collection_order": 10
+    },
+    {
+      "plan_index": 25,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c2s1",
+      "cell_id": "cell_22",
+      "cell_row": 2,
+      "cell_col": 2,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4622176336094847,
+      "y": -0.117237819885892,
+      "status": "planned",
+      "collection_order": 34
+    },
+    {
+      "plan_index": 26,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c3s0",
+      "cell_id": "cell_23",
+      "cell_row": 2,
+      "cell_col": 3,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4734222289447266,
+      "y": -0.11397524439538811,
+      "status": "planned",
+      "collection_order": 39
+    },
+    {
+      "plan_index": 27,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c3s1",
+      "cell_id": "cell_23",
+      "cell_row": 2,
+      "cell_col": 3,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.47659595745824856,
+      "y": -0.11503259562371627,
+      "status": "planned",
+      "collection_order": 0
+    },
+    {
+      "plan_index": 28,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c4s0",
+      "cell_id": "cell_24",
+      "cell_row": 2,
+      "cell_col": 4,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4805421306767461,
+      "y": -0.1071634214063042,
+      "status": "planned",
+      "collection_order": 47
+    },
+    {
+      "plan_index": 29,
+      "planned_state_id": "square_geomagic_xy50_v1:r2c4s1",
+      "cell_id": "cell_24",
+      "cell_row": 2,
+      "cell_col": 4,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1185,
+        "y_max": -0.1065
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.11825999999999999,
+        "y_max": -0.10674
+      },
+      "x": 0.4831704135174059,
+      "y": -0.11428706674448356,
+      "status": "planned",
+      "collection_order": 36
+    },
+    {
+      "plan_index": 30,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c0s0",
+      "cell_id": "cell_30",
+      "cell_row": 3,
+      "cell_col": 0,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4508025152911676,
+      "y": -0.09618430250080029,
+      "status": "planned",
+      "collection_order": 24
+    },
+    {
+      "plan_index": 31,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c0s1",
+      "cell_id": "cell_30",
+      "cell_row": 3,
+      "cell_col": 0,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4487436449322308,
+      "y": -0.1040063823827027,
+      "status": "planned",
+      "collection_order": 21
+    },
+    {
+      "plan_index": 32,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c1s0",
+      "cell_id": "cell_31",
+      "cell_row": 3,
+      "cell_col": 1,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4600019008865753,
+      "y": -0.10147006409955255,
+      "status": "planned",
+      "collection_order": 29
+    },
+    {
+      "plan_index": 33,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c1s1",
+      "cell_id": "cell_31",
+      "cell_row": 3,
+      "cell_col": 1,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.45742715429836517,
+      "y": -0.09691860302514246,
+      "status": "planned",
+      "collection_order": 5
+    },
+    {
+      "plan_index": 34,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c2s0",
+      "cell_id": "cell_32",
+      "cell_row": 3,
+      "cell_col": 2,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.46117330390864625,
+      "y": -0.1047076946352558,
+      "status": "planned",
+      "collection_order": 4
+    },
+    {
+      "plan_index": 35,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c2s1",
+      "cell_id": "cell_32",
+      "cell_row": 3,
+      "cell_col": 2,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.46530232590251414,
+      "y": -0.1005941632992838,
+      "status": "planned",
+      "collection_order": 28
+    },
+    {
+      "plan_index": 36,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c3s0",
+      "cell_id": "cell_33",
+      "cell_row": 3,
+      "cell_col": 3,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4738983169235848,
+      "y": -0.10408162954878428,
+      "status": "planned",
+      "collection_order": 37
+    },
+    {
+      "plan_index": 37,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c3s1",
+      "cell_id": "cell_33",
+      "cell_row": 3,
+      "cell_col": 3,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4753967307876021,
+      "y": -0.10619443359737296,
+      "status": "planned",
+      "collection_order": 20
+    },
+    {
+      "plan_index": 38,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c4s0",
+      "cell_id": "cell_34",
+      "cell_row": 3,
+      "cell_col": 4,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.4845019567483856,
+      "y": -0.096508685745509,
+      "status": "planned",
+      "collection_order": 13
+    },
+    {
+      "plan_index": 39,
+      "planned_state_id": "square_geomagic_xy50_v1:r3c4s1",
+      "cell_id": "cell_34",
+      "cell_row": 3,
+      "cell_col": 4,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.1065,
+        "y_max": -0.0945
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.10626,
+        "y_max": -0.09474
+      },
+      "x": 0.47915806405808303,
+      "y": -0.10558692451005992,
+      "status": "planned",
+      "collection_order": 15
+    },
+    {
+      "plan_index": 40,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c0s0",
+      "cell_id": "cell_40",
+      "cell_row": 4,
+      "cell_col": 0,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.44627720411973415,
+      "y": -0.0935497272150881,
+      "status": "planned",
+      "collection_order": 2
+    },
+    {
+      "plan_index": 41,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c0s1",
+      "cell_id": "cell_40",
+      "cell_row": 4,
+      "cell_col": 0,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.445,
+        "x_max": 0.453,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.44516,
+        "x_max": 0.45284,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4510511139375767,
+      "y": -0.08535059183289259,
+      "status": "planned",
+      "collection_order": 8
+    },
+    {
+      "plan_index": 42,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c1s0",
+      "cell_id": "cell_41",
+      "cell_row": 4,
+      "cell_col": 1,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.45459327790092785,
+      "y": -0.08693646933969686,
+      "status": "planned",
+      "collection_order": 40
+    },
+    {
+      "plan_index": 43,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c1s1",
+      "cell_id": "cell_41",
+      "cell_row": 4,
+      "cell_col": 1,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.453,
+        "x_max": 0.461,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.45316,
+        "x_max": 0.46084,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4556735224067095,
+      "y": -0.08504310444091226,
+      "status": "planned",
+      "collection_order": 11
+    },
+    {
+      "plan_index": 44,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c2s0",
+      "cell_id": "cell_42",
+      "cell_row": 4,
+      "cell_col": 2,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4685932839428376,
+      "y": -0.09011117089540202,
+      "status": "planned",
+      "collection_order": 25
+    },
+    {
+      "plan_index": 45,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c2s1",
+      "cell_id": "cell_42",
+      "cell_row": 4,
+      "cell_col": 2,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.461,
+        "x_max": 0.469,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.46116,
+        "x_max": 0.46884,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4650765339519472,
+      "y": -0.08507116939311084,
+      "status": "planned",
+      "collection_order": 30
+    },
+    {
+      "plan_index": 46,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c3s0",
+      "cell_id": "cell_43",
+      "cell_row": 4,
+      "cell_col": 3,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4713811699393224,
+      "y": -0.08957414698148555,
+      "status": "planned",
+      "collection_order": 31
+    },
+    {
+      "plan_index": 47,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c3s1",
+      "cell_id": "cell_43",
+      "cell_row": 4,
+      "cell_col": 3,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.469,
+        "x_max": 0.477,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.46915999999999997,
+        "x_max": 0.47684,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.47617945474699286,
+      "y": -0.09389999075216364,
+      "status": "planned",
+      "collection_order": 18
+    },
+    {
+      "plan_index": 48,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c4s0",
+      "cell_id": "cell_44",
+      "cell_row": 4,
+      "cell_col": 4,
+      "sample_in_cell": 0,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4784561070721837,
+      "y": -0.08781029692203586,
+      "status": "planned",
+      "collection_order": 26
+    },
+    {
+      "plan_index": 49,
+      "planned_state_id": "square_geomagic_xy50_v1:r4c4s1",
+      "cell_id": "cell_44",
+      "cell_row": 4,
+      "cell_col": 4,
+      "sample_in_cell": 1,
+      "cell_bounds": {
+        "x_min": 0.477,
+        "x_max": 0.485,
+        "y_min": -0.0945,
+        "y_max": -0.0825
+      },
+      "sampling_bounds": {
+        "x_min": 0.47716,
+        "x_max": 0.48484,
+        "y_min": -0.09426,
+        "y_max": -0.08274000000000001
+      },
+      "x": 0.4790645217993768,
+      "y": -0.09353370945874796,
+      "status": "planned",
+      "collection_order": 12
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!--
+  Square nut geometry adapted from robosuite v1.4.1 commit
+  b9d8d3de5e3dfd1724f4a0e6555246c460407daa.
+  See ROBOSUITE_LICENSE and ../UPSTREAM_SQUARE_AUDIT.md.
+-->
+<mujoco model="mimicgen_square_nut">
+  <worldbody>
+    <body name="square_nut" pos="0.4275 -0.1125 0.495">
+      <joint name="square_nut_joint" type="free" damping="0.0005"/>
+
+      <geom name="square_nut_left" pos="-0.03325 0 0"
+        size="0.0105 0.04375 0.01" type="box" group="0"
+        solimp="0.998 0.998 0.001" solref="0.02 1" density="100"
+        friction="0.95 0.3 0.2" condim="4" material="square_brass"/>
+      <geom name="square_nut_top" pos="0 0.03325 0"
+        size="0.03125 0.0105 0.01" type="box" group="0"
+        solimp="0.998 0.998 0.001" solref="0.02 1" density="100"
+        friction="0.95 0.3 0.1" condim="4" material="square_brass"/>
+      <geom name="square_nut_bottom" pos="0 -0.03325 0"
+        size="0.03125 0.0105 0.01" type="box" group="0"
+        solimp="0.998 0.998 0.001" solref="0.02 1" density="100"
+        friction="0.95 0.3 0.1" condim="4" material="square_brass"/>
+      <geom name="square_nut_right" pos="0.03325 0 0"
+        size="0.0105 0.04375 0.01" type="box" group="0"
+        solimp="0.998 0.998 0.001" solref="0.02 1" density="100"
+        friction="0.95 0.3 0.1" condim="4" material="square_brass"/>
+      <geom name="square_nut_handle" pos="0.054 0 0"
+        size="0.02525 0.015875 0.01" type="box" group="0"
+        solimp="0.998 0.998 0.001" solref="0.02 1" density="100"
+        friction="0.95 0.3 0.1" condim="4" material="square_brass"/>
+      <site name="square_nut_handle_site" pos="0.054 0 0" size="0.005"
+        rgba="1 0 0 0"/>
+      <site name="square_nut_center_site" pos="0 0 0" size="0.003"
+        rgba="1 0 0 0"/>
+    </body>
+  </worldbody>
+</mujoco>

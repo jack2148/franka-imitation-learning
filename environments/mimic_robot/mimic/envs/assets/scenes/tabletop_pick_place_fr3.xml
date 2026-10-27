@@ -1,0 +1,91 @@
+<mujoco model="tabletop_pick_place_fr3">
+  <compiler angle="radian" meshdir="../robots/franka_fr3/assets"/>
+  <include file="../robots/franka_fr3/fr3.xml"/>
+
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast"
+    cone="elliptic" iterations="80" ls_iterations="40" impratio="10">
+    <flag warmstart="enable"/>
+  </option>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+    <global azimuth="120" elevation="-20"/>
+  </visual>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker"
+      rgb1="0.85 0.85 0.85" rgb2="0.65 0.65 0.65" width="512" height="512"/>
+    <material name="grid_mat" texture="grid" texrepeat="8 8" texuniform="true"/>
+    <material name="table_mat" rgba="0.55 0.37 0.22 1"/>
+    <material name="cube_mat" rgba="0.9 0.1 0.1 1"/>
+    <material name="target_mat" rgba="0.2 0.9 0.2 0.4"/>
+  </asset>
+
+  <worldbody>
+    <geom name="ground" type="plane" size="2 2 0.01" material="grid_mat"/>
+    <light name="key_light" directional="true" pos="1 -0.5 3"
+      dir="-0.3 0.2 -1" diffuse="1 0.95 0.85" castshadow="false"/>
+    <light name="fill_light" directional="true" pos="-1 1 2"
+      dir="0.3 -0.3 -0.8" diffuse="0.35 0.4 0.5" castshadow="false"/>
+
+    <body name="table" pos="0.595 0 0">
+      <geom name="table_top" type="box" size="0.45 0.55 0.025"
+        pos="0 0 0.4" material="table_mat" mass="100"/>
+      <geom name="table_leg1" type="cylinder" size="0.035"
+        fromto="-0.38 -0.48 0 -0.38 -0.48 0.375" material="table_mat"/>
+      <geom name="table_leg2" type="cylinder" size="0.035"
+        fromto="0.38 -0.48 0 0.38 -0.48 0.375" material="table_mat"/>
+      <geom name="table_leg3" type="cylinder" size="0.035"
+        fromto="-0.38 0.48 0 -0.38 0.48 0.375" material="table_mat"/>
+      <geom name="table_leg4" type="cylinder" size="0.035"
+        fromto="0.38 0.48 0 0.38 0.48 0.375" material="table_mat"/>
+    </body>
+
+    <body name="cube" pos="0.5 0 0.45">
+      <freejoint name="cube_joint"/>
+      <geom name="cube_geom" type="box" size="0.025 0.025 0.025"
+        material="cube_mat" mass="0.05" condim="6" friction="1.5 0.08 0.01"
+        margin="0.001" solimp="0.92 0.99 0.001" solref="0.002 1"/>
+    </body>
+
+    <body name="target" pos="0.5 0.2 0.45">
+      <geom name="target_geom" type="sphere" size="0.05"
+        material="target_mat" contype="0" conaffinity="0"/>
+    </body>
+
+    <!-- Dataset workspace view: centered over the tabletop and looking
+         vertically downward. The table's long axis runs across the frame. -->
+    <camera name="front" pos="0.5 0 1.55"
+      xyaxes="0 -1 0 1 0 0" fovy="45"/>
+    <!-- Primary teleoperation view: close front-right oblique framing of the
+         active workspace. This camera is rendered only by the UI preview. -->
+    <camera name="operator" pos="1.15 0.95 0.95"
+      xyaxes="-0.817206 0.576345 0 -0.199946 -0.283506 0.937894" fovy="48"/>
+    <!-- UI-only orthographic alignment monitor. FR3 masking and the actual
+         gripper-center XY marker are applied only by the preview renderer.
+         Dataset cameras remain independent. -->
+    <camera name="front_operator" pos="0.55 0 1.65" projection="orthographic"
+      xyaxes="0 1 0 -1 0 0" fovy="0.65"/>
+    <!-- Retired from the UI; kept defined but no longer routed to any panel. -->
+    <camera name="top_down" pos="0.55 0 1.65"
+      xyaxes="0 -1 0 1 0 0" fovy="32"/>
+    <!-- UI-only oblique lateral monitor. Sits on the robot's left (+y), the
+         same side as the operator camera, so left/right on screen matches the
+         operator view instead of mirroring it. 30 degrees above horizontal,
+         aimed at working height: flat enough to read approach depth, which a
+         top-down view collapses, while still clearing the workspace.
+         Never stored. -->
+    <camera name="left_side" pos="0.637 1.359 1.245"
+      xyaxes="-0.990268 0.139173 0.000000 -0.069587 -0.495134 0.866025" fovy="36"/>
+    <!-- Legacy lateral camera retained for compatibility with standalone
+         tools; the collection UI no longer routes this camera. -->
+    <camera name="side" pos="0.3 1.5 0.72"
+      xyaxes="-1 0 0 0 0 1" fovy="48"/>
+  </worldbody>
+
+  <keyframe>
+    <key name="home"
+      qpos="0 0 0 -1.57079 0 1.57079 -0.7853 0.04 0.04 0.5 0 0.45 1 0 0 0"
+      ctrl="0 0 0 -1.57079 0 1.57079 -0.7853 255"/>
+  </keyframe>
+</mujoco>

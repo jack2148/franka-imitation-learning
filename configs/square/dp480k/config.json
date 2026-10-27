@@ -1,0 +1,94 @@
+{
+  "type": "diffusion",
+  "n_obs_steps": 8,
+  "input_features": {
+    "observation.state": {
+      "type": "STATE",
+      "shape": [
+        16
+      ]
+    },
+    "observation.images.operator": {
+      "type": "VISUAL",
+      "shape": [
+        3,
+        480,
+        640
+      ]
+    },
+    "observation.images.wrist": {
+      "type": "VISUAL",
+      "shape": [
+        3,
+        480,
+        640
+      ]
+    }
+  },
+  "output_features": {
+    "action": {
+      "type": "ACTION",
+      "shape": [
+        8
+      ]
+    }
+  },
+  "device": "cuda",
+  "use_amp": false,
+  "use_peft": false,
+  "push_to_hub": false,
+  "repo_id": null,
+  "private": null,
+  "tags": null,
+  "license": null,
+  "pretrained_path": null,
+  "pretrained_revision": null,
+  "horizon": 32,
+  "n_action_steps": 8,
+  "normalization_mapping": {
+    "VISUAL": "MEAN_STD",
+    "STATE": "MIN_MAX",
+    "ACTION": "MIN_MAX"
+  },
+  "drop_n_last_frames": 7,
+  "vision_backbone": "resnet18",
+  "resize_shape": null,
+  "crop_ratio": 1.0,
+  "crop_shape": null,
+  "crop_is_random": true,
+  "pretrained_backbone_weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "use_group_norm": false,
+  "spatial_softmax_num_keypoints": 32,
+  "use_separate_rgb_encoder_per_camera": true,
+  "down_dims": [
+    512,
+    1024,
+    2048
+  ],
+  "kernel_size": 5,
+  "n_groups": 8,
+  "diffusion_step_embed_dim": 128,
+  "use_film_scale_modulation": true,
+  "gradient_checkpointing": false,
+  "noise_scheduler_type": "DDPM",
+  "num_train_timesteps": 100,
+  "beta_schedule": "squaredcos_cap_v2",
+  "beta_start": 0.0001,
+  "beta_end": 0.02,
+  "prediction_type": "epsilon",
+  "clip_sample": true,
+  "clip_sample_range": 1.0,
+  "num_inference_steps": null,
+  "compile_model": false,
+  "compile_mode": "reduce-overhead",
+  "do_mask_loss_for_padding": false,
+  "optimizer_lr": 0.0001,
+  "optimizer_betas": [
+    0.95,
+    0.999
+  ],
+  "optimizer_eps": 1e-08,
+  "optimizer_weight_decay": 1e-06,
+  "scheduler_name": "cosine",
+  "scheduler_warmup_steps": 500
+}

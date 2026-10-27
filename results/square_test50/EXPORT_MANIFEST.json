@@ -1,0 +1,271 @@
+{
+  "originals_modified": false,
+  "files": [
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/act_dp_paired_results.csv",
+      "source_sha256": "e04c29f66d00ea756a0041dd40f900081dad72ff943e7841585b814eb901bed3",
+      "public_file": "results/square_test50/tables/act_dp_paired_results.csv",
+      "public_sha256": "e04c29f66d00ea756a0041dd40f900081dad72ff943e7841585b814eb901bed3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/checkpoint_success_rates.csv",
+      "source_sha256": "dd944fa23189fe4a2d16ddbdbae6e3f1e146fb019de0f1c5736b771aaa5ac186",
+      "public_file": "results/square_test50/tables/checkpoint_success_rates.csv",
+      "public_sha256": "dd944fa23189fe4a2d16ddbdbae6e3f1e146fb019de0f1c5736b771aaa5ac186",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/lower20_upper20_demo_cpu_20261013/group_comparison.csv",
+      "source_sha256": "35dca2e014282e81bfbc9caefd977ff11afb8ab314b138f901c1cf99307551f5",
+      "public_file": "results/square_test50/tables/demonstration_group_comparison.csv",
+      "public_sha256": "35dca2e014282e81bfbc9caefd977ff11afb8ab314b138f901c1cf99307551f5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/failure_stage_summary.csv",
+      "source_sha256": "dc8424f356ea73efa4e0c655280bc8303c2cd7471cc92d3b66759d900e5c20aa",
+      "public_file": "results/square_test50/tables/failure_stage_summary.csv",
+      "public_sha256": "dc8424f356ea73efa4e0c655280bc8303c2cd7471cc92d3b66759d900e5c20aa",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/final_test50_diagnostics.csv",
+      "source_sha256": "26a040181c5a56b969cba0b4170e61d3e3a0368b412caa6d715b398acd6f2448",
+      "public_file": "results/square_test50/tables/final_test50_diagnostics.csv",
+      "public_sha256": "26a040181c5a56b969cba0b4170e61d3e3a0368b412caa6d715b398acd6f2448",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/final_test50_results.csv",
+      "source_sha256": "e39c3d06d66b5bc936ad02433e899f12f795eca64bf283d1e83c18d9150ab395",
+      "public_file": "results/square_test50/tables/final_test50_results.csv",
+      "public_sha256": "e39c3d06d66b5bc936ad02433e899f12f795eca64bf283d1e83c18d9150ab395",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/final_test50_row_results.csv",
+      "source_sha256": "6cd9160317bd0452b8545fa0a555856855e682d959e6ca368682843487f77b15",
+      "public_file": "results/square_test50/tables/final_test50_row_results.csv",
+      "public_sha256": "6cd9160317bd0452b8545fa0a555856855e682d959e6ca368682843487f77b15",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/final_report/tables/paired_category_counts.csv",
+      "source_sha256": "38ea6ef06f8b875db159c2b5413d58ea5022a1649fed2327dbf6192e8eb58af6",
+      "public_file": "results/square_test50/tables/paired_category_counts.csv",
+      "public_sha256": "38ea6ef06f8b875db159c2b5413d58ea5022a1649fed2327dbf6192e8eb58af6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/act_checkpoint_sweep_xy20_20261014/act_checkpoint_success_rate.png",
+      "source_sha256": "7c12b1cf6b1189373dbc2769546565ee7cdfc29a033d31e8bf53416811c067bc",
+      "public_file": "results/square_test50/figures/01_act_checkpoint_success.png",
+      "public_sha256": "7c12b1cf6b1189373dbc2769546565ee7cdfc29a033d31e8bf53416811c067bc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/dp_checkpoint_sweep_xy20_20261013/plots/dp_checkpoint_success_rate.png",
+      "source_sha256": "a03c4b1cba9c969108ff90bd8ade1a052121609a742ce85a9e4ff8c6f7a7044e",
+      "public_file": "results/square_test50/figures/02_dp_checkpoint_success.png",
+      "public_sha256": "a03c4b1cba9c969108ff90bd8ade1a052121609a742ce85a9e4ff8c6f7a7044e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/act_dp_checkpoint_spatial_analysis_20261014/act_dp_region_learning_comparison.png",
+      "source_sha256": "0d1fa0ed92e7eadad2a7277c751ded077dda565e06456cf464378509b8dbc012",
+      "public_file": "results/square_test50/figures/03_act_dp_checkpoint_comparison.png",
+      "public_sha256": "0d1fa0ed92e7eadad2a7277c751ded077dda565e06456cf464378509b8dbc012",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/act_dp_checkpoint_spatial_analysis_20261014/act_checkpoint_region_success.png",
+      "source_sha256": "2f3eb452fb6e8d5e6842bc4a4d6c199bd0e546ad46758033e08f4f759ee3036e",
+      "public_file": "results/square_test50/figures/04_act_checkpoint_region_success.png",
+      "public_sha256": "2f3eb452fb6e8d5e6842bc4a4d6c199bd0e546ad46758033e08f4f759ee3036e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/act_dp_checkpoint_spatial_analysis_20261014/dp_checkpoint_region_success.png",
+      "source_sha256": "9c8186f177a09cf1096229813e1818a863ee7e79f231f7deb5e33d0094872280",
+      "public_file": "results/square_test50/figures/05_dp_checkpoint_region_success.png",
+      "public_sha256": "9c8186f177a09cf1096229813e1818a863ee7e79f231f7deb5e33d0094872280",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/square_geomagic_xy50_v1_convert_Diffusion/EVAL-xy20-dp480k-20261013-1791856294816505632/act_vs_dp_xy_success_map.png",
+      "source_sha256": "cea5109df56b1c5b3c718c3ffc91c189798e444f687f16db417e0ba87929653e",
+      "public_file": "results/square_test50/figures/06_act_dp_xy_success_map.png",
+      "public_sha256": "cea5109df56b1c5b3c718c3ffc91c189798e444f687f16db417e0ba87929653e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/configs/collection/square_geomagic_xy_test50_v1_xy_map.png",
+      "source_sha256": "db56b549b6ed07300379466b1e8fb302920ce0671d3aa2111fca9c63fffe953d",
+      "public_file": "results/square_test50/figures/07_test50_xy_plan.png",
+      "public_sha256": "db56b549b6ed07300379466b1e8fb302920ce0671d3aa2111fca9c63fffe953d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/test50_act_dp_xy_success_map.png",
+      "source_sha256": "9356a856de384b3ec01b44b7d3e51c37f40d0f833c1cc202ca63b6747f5d2ef0",
+      "public_file": "results/square_test50/figures/08_test50_act_dp_xy_success_map.png",
+      "public_sha256": "9356a856de384b3ec01b44b7d3e51c37f40d0f833c1cc202ca63b6747f5d2ef0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/test50_row_success_rates.png",
+      "source_sha256": "c83fcb06d29ba0ebae642bacdf5810c5739b0180698686465f183f9478ae2765",
+      "public_file": "results/square_test50/figures/09_test50_row_success_rates.png",
+      "public_sha256": "c83fcb06d29ba0ebae642bacdf5810c5739b0180698686465f183f9478ae2765",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/test50_region_success_rates.png",
+      "source_sha256": "19a9d9151d1c78e7e1fb5d65dd936fee82c5bd6368bb2868e16e91e532d55099",
+      "public_file": "results/square_test50/figures/10_test50_region_success_rates.png",
+      "public_sha256": "19a9d9151d1c78e7e1fb5d65dd936fee82c5bd6368bb2868e16e91e532d55099",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/test50_failure_stage_comparison.png",
+      "source_sha256": "6930e4226b09fe677ec710b27e09d5afcb3de1d466093404955352d8d292035b",
+      "public_file": "results/square_test50/figures/11_test50_failure_stage_comparison.png",
+      "public_sha256": "6930e4226b09fe677ec710b27e09d5afcb3de1d466093404955352d8d292035b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/lower20_upper20_demo_cpu_20261013/ee_object_relative_trajectories.png",
+      "source_sha256": "72dc1c956d55fe619e149b2d31f1d9982533f99324078a79149d945362bfb66b",
+      "public_file": "results/square_test50/figures/12_upper_lower_demo_trajectory_analysis.png",
+      "public_sha256": "72dc1c956d55fe619e149b2d31f1d9982533f99324078a79149d945362bfb66b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/test50_final_results_table.png",
+      "source_sha256": "5668411e7e57c741b7bf5bb1490ae316f6258799dd08c5a73a5b8bdf7f818c59",
+      "public_file": "results/square_test50/figures/13_test50_final_results_table.png",
+      "public_sha256": "5668411e7e57c741b7bf5bb1490ae316f6258799dd08c5a73a5b8bdf7f818c59",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/analysis/act_dp_checkpoint_spatial_analysis_20261014/act_dp_checkpoint_success_table.png",
+      "source_sha256": "ddbff675b0633290c4e39614e7be641afae7881020aecab8420b3cd89e62fa16",
+      "public_file": "results/square_test50/figures/14_checkpoint_success_table.png",
+      "public_sha256": "ddbff675b0633290c4e39614e7be641afae7881020aecab8420b3cd89e62fa16",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/configs/collection/square_geomagic_xy_test50_v1.json",
+      "source_sha256": "e550c45f661cb78ebf016e0422481d6d60870fc4b261e811f8f5da62595f0442",
+      "public_file": "results/square_test50/test50_states.json",
+      "public_sha256": "6391a60e09e2aa71799bcb89204ea8569518d0e4d9b7c26c182a542bd7e15cbb",
+      "transformation": "selected fields; machine paths replaced; states unchanged"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/act300k_per_state.csv",
+      "source_sha256": "a6f187434f3c4f7eccd02460bea0ade8d5a75cf396c06fcc7ec8392954494e49",
+      "public_file": "results/square_test50/act300k_per_state.csv",
+      "public_sha256": "ff8ca845a57e793e083579360dc380e339125628f5b099421b4370897cc16c06",
+      "transformation": "raw_actions_file path column omitted; all numerical/result fields unchanged"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/dp480k_per_state.csv",
+      "source_sha256": "049ea2beba3cf08a1fe33667cf6b7c34090653044eeee13601a67e418fcd8367",
+      "public_file": "results/square_test50/dp480k_per_state.csv",
+      "public_sha256": "783b461fcfece7096cf0e6be64d5d40d0680dcd7bc955b6109ebb37ac9ff9d9e",
+      "transformation": "raw_actions_file path column omitted; all numerical/result fields unchanged"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/evaluation/FINAL-test50-act300-dp480-20261014/scripts/failure_classifier.py",
+      "source_sha256": "79a69f2d81f7a77fab2e6a91a365c61ad3a6ec7db4d3a1efb9a8ea2d53073157",
+      "public_file": "scripts/analysis/failure_classifier.py",
+      "public_sha256": "79a69f2d81f7a77fab2e6a91a365c61ad3a6ec7db4d3a1efb9a8ea2d53073157",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/config.json",
+      "source_sha256": "f14b856b297ab76a6bf3335a462f0c03a7dd397ed6a5622a70b1ee464aff9f88",
+      "public_file": "configs/square/act300k/config.json",
+      "public_sha256": "b8abba0448400d2a6944fc33dec321d7daf562169bf47d96145dc63b71da9c8d",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/policy_postprocessor.json",
+      "source_sha256": "3b6882c2b0600c899184812306ebdd54a6939c943f818cff1b56c37c8c80318c",
+      "public_file": "configs/square/act300k/policy_postprocessor.json",
+      "public_sha256": "aa20d435ff586086aebb8dd48c884146c482ba73eadd60bd1aac6af3a859b6c8",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "source_sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "public_file": "configs/square/act300k/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "public_sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "transformation": "byte-identical normalizer state"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/policy_preprocessor.json",
+      "source_sha256": "1a7705925f7300b192137540bb856ade1abde4a77d13808d003b629e5872ab26",
+      "public_file": "configs/square/act300k/policy_preprocessor.json",
+      "public_sha256": "f14af2b98623942737930e7639430ac659128f2b31679f5686a571ed253e628a",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "source_sha256": "b24ce119236cc29271780c3e0bff8d9ed9191467477f80c7e245e0d387b70629",
+      "public_file": "configs/square/act300k/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "public_sha256": "b24ce119236cc29271780c3e0bff8d9ed9191467477f80c7e245e0d387b70629",
+      "transformation": "byte-identical normalizer state"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/act/square_geomagic_xy50_v1_convert_ACT_300k_resume/artifacts/checkpoints/300000/pretrained_model/train_config.json",
+      "source_sha256": "e754ff88d562925201512406b50df22b4970147641893fd11c197e14791aa1ba",
+      "public_file": "configs/square/act300k/train_config.json",
+      "public_sha256": "45a6d9e0253bddefc01f871aaf5cca065218670f248b903f7238a956b73d7759",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/config.json",
+      "source_sha256": "265ecbbe0f631e010847d89fc7044d948e987a4bcb547869855a62186b152344",
+      "public_file": "configs/square/dp480k/config.json",
+      "public_sha256": "a99f2534d92a8ea876458f98367d9d9dcb5145925006ca5ef935b6994d73cc41",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/policy_postprocessor.json",
+      "source_sha256": "f509a69d16c114547e57bfc08fad14fa222b1d44833d5a742e40be3f679b443f",
+      "public_file": "configs/square/dp480k/policy_postprocessor.json",
+      "public_sha256": "8f392ff2ecaad69e4580e9a432bcddc5a1742e26128ec460ef3b1e01cce7b296",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "source_sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "public_file": "configs/square/dp480k/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "public_sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "transformation": "byte-identical normalizer state"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/policy_preprocessor.json",
+      "source_sha256": "bd81746ac98c65de15fa9d989cb1ae57c29eb3b8848e7f1d6a68aadee2334bf3",
+      "public_file": "configs/square/dp480k/policy_preprocessor.json",
+      "public_sha256": "f030922ebd1a997e63d4bc49b647910df799961f7eccd8c827f6394a36c8672b",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "source_sha256": "da4417605d6780fee2a7b34bbb4ce2c470a29c7ab886c07b35c9a51d6c41d7c9",
+      "public_file": "configs/square/dp480k/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "public_sha256": "da4417605d6780fee2a7b34bbb4ce2c470a29c7ab886c07b35c9a51d6c41d7c9",
+      "transformation": "byte-identical normalizer state"
+    },
+    {
+      "source": "mimic/experiments/mimicgen_square/training/square_geo50_20261008/dp_b16_s480k/checkpoints/480000/pretrained_model/train_config.json",
+      "source_sha256": "b46fdabcd191ddacda5fae6c2d5f0f222e3cbf7912e7fc7335237829255a8cad",
+      "public_file": "configs/square/dp480k/train_config.json",
+      "public_sha256": "c4e85326486e3da9311c84148246dadc99d585048fbe146e9839351e0af0284a",
+      "transformation": "JSON reserialized; machine-specific paths replaced with documented placeholders"
+    }
+  ]
+}

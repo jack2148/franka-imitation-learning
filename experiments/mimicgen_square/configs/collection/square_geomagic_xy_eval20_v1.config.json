@@ -1,0 +1,8 @@
+{
+  "plan_name": "square_geomagic_xy_eval20_v1",
+  "training_plan": "square_geomagic_xy50_v1",
+  "grid": {"rows": 4, "cols": 5, "samples_per_cell": 1},
+  "cell_sampling_margin_fraction": 0.02,
+  "seed": 20261009,
+  "shuffle_seed": 20261010
+}

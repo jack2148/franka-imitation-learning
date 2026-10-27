@@ -1,0 +1,23 @@
+{
+  "plan_name": "square_geomagic_xy50_v1",
+  "workspace": {
+    "x_min": 0.445,
+    "x_max": 0.485,
+    "y_min": -0.1425,
+    "y_max": -0.0825
+  },
+  "workspace_source": "Nine-point manual Geomagic validation candidate: 40 x 60 mm",
+  "grid": {
+    "rows": 5,
+    "cols": 5,
+    "samples_per_cell": 2
+  },
+  "cell_sampling_margin_fraction": 0.02,
+  "seed": 20261007,
+  "shuffle_seed": 20261008,
+  "object_z": 0.495,
+  "object_yaw_world_rad": 1.5707963267948966,
+  "evaluation_plan": "square_geomagic_xy_eval20_v1",
+  "default_raw_root": "mimicgen_square/datasets/raw/restricted30_geomagic/square_geomagic_xy50_v1",
+  "workspace_validation_sha256": "1192386c3ae6ee001ebbd5368598a97c58b70f2c3f61e3357357d40a725650a7"
+}

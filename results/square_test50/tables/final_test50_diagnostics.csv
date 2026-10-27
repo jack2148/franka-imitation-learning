@@ -1,0 +1,9 @@
+model,region,total,acquisition,success_after_acquisition,conditional_success,system_errors,nan_inf_action_rows,nan_inf_action_errors,clipped_action_steps,clipped_dimensions,robot_table_contact_episodes,mean_successful_completion_seconds
+ACT300k,overall,50,30,27,0.9,0,0,0,3665,3665,15,58.09999999998095
+ACT300k,LOWER,20,12,11,0.9166666666666666,0,0,0,1959,1959,12,57.977272727258466
+ACT300k,MID,10,8,7,0.875,0,0,0,616,616,2,57.74285714285265
+ACT300k,UPPER,20,10,9,0.9,0,0,0,1090,1090,1,58.52777777774155
+DP480k,overall,50,43,43,1.0,0,0,0,0,0,5,56.4616279069513
+DP480k,LOWER,20,17,17,1.0,0,0,0,0,0,2,54.34117647056659
+DP480k,MID,10,10,10,1.0,0,0,0,0,0,2,63.2849999999853
+DP480k,UPPER,20,16,16,1.0,0,0,0,0,0,1,54.4499999999638

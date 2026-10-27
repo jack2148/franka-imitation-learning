@@ -1,0 +1,1647 @@
+{
+  "frozen_at": "2026-10-27T14:50:55.156299+09:00",
+  "source_cutoff": "validated relocated snapshot from 2026-10-27 14:33\u201314:43 KST; NOT current workspace",
+  "upstream_omy_main": "985b9b0d82d4edce2d9bbf7dbfeee4919534924e",
+  "previous_regression": "655 passed, 2800 control steps exact equality",
+  "manifest_sha256": "02dcc4b2a1d6539df2ba6fc982f73acfecf9d0aba16117a5807aac5a735c5395",
+  "files": [
+    {
+      "path": "franka-imitation-learning/.gitignore",
+      "sha256": "bda3bfc11456511e6483a046acc424f2b8dbd605b3ee70c3ddc6dc61f1833807",
+      "bytes": 214
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/config.json",
+      "sha256": "b8abba0448400d2a6944fc33dec321d7daf562169bf47d96145dc63b71da9c8d",
+      "bytes": 1580
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/policy_postprocessor.json",
+      "sha256": "aa20d435ff586086aebb8dd48c884146c482ba73eadd60bd1aac6af3a859b6c8",
+      "bytes": 661
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "bytes": 8072
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/policy_preprocessor.json",
+      "sha256": "f14af2b98623942737930e7639430ac659128f2b31679f5686a571ed253e628a",
+      "bytes": 1333
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "sha256": "b24ce119236cc29271780c3e0bff8d9ed9191467477f80c7e245e0d387b70629",
+      "bytes": 8016
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/act300k/train_config.json",
+      "sha256": "45a6d9e0253bddefc01f871aaf5cca065218670f248b903f7238a956b73d7759",
+      "bytes": 6201
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/config.json",
+      "sha256": "a99f2534d92a8ea876458f98367d9d9dcb5145925006ca5ef935b6994d73cc41",
+      "bytes": 1980
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/policy_postprocessor.json",
+      "sha256": "8f392ff2ecaad69e4580e9a432bcddc5a1742e26128ec460ef3b1e01cce7b296",
+      "bytes": 659
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "sha256": "48c255c2a8bb2f01aaded0f005a11dee710cd451d0c51db1045f9d708f5f1cbd",
+      "bytes": 8072
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/policy_preprocessor.json",
+      "sha256": "f030922ebd1a997e63d4bc49b647910df799961f7eccd8c827f6394a36c8672b",
+      "bytes": 1331
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/policy_preprocessor_step_3_normalizer_processor.safetensors",
+      "sha256": "da4417605d6780fee2a7b34bbb4ce2c470a29c7ab886c07b35c9a51d6c41d7c9",
+      "bytes": 8080
+    },
+    {
+      "path": "franka-imitation-learning/configs/square/dp480k/train_config.json",
+      "sha256": "c4e85326486e3da9311c84148246dadc99d585048fbe146e9839351e0af0284a",
+      "bytes": 6582
+    },
+    {
+      "path": "franka-imitation-learning/dataset/convert_mimic_raw_to_lerobot.py",
+      "sha256": "678c4ff2cdf6ab3537ed1aaf98f45e6aa8be8b1f538e2cd20d3b1b9bac5d2fee",
+      "bytes": 13689
+    },
+    {
+      "path": "franka-imitation-learning/dataset/validate_lerobot_dataset.py",
+      "sha256": "c90940f8d7a5e43954d8b7c31c24d27a24e0f2a9338f61d54f22b71959450323",
+      "bytes": 7062
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/__init__.py",
+      "sha256": "a7e92405c99943a32e57939cbb9a2ce334e0cb828a97213be45d0f661b2dc508",
+      "bytes": 87
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/config/models.py",
+      "sha256": "aad980f9d492c36c2df4e21ba1ef0ce2a65440ec7722379672a833afbaf934bb",
+      "bytes": 1454
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/__init__.py",
+      "sha256": "d455ef16edfcd375221fd083a2833cd4f18655b898d2b4e600685ee699ca1f18",
+      "bytes": 202
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/adapter.py",
+      "sha256": "6bd51926bc1daa81edc918dc8966786fd16a6fda3f5de8d9ffacf5c3f7ce459e",
+      "bytes": 1664
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/CHANGELOG.md",
+      "sha256": "a7c798743420ab2d01b35d0cb0714d40328e1babfb339afae0b527eb1f569693",
+      "bytes": 370
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/LICENSE",
+      "sha256": "5e15554a918bf661583d7df7a1014177be4fed561532aaaee852dca06c71821a",
+      "bytes": 12927
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/README.md",
+      "sha256": "19c8ad2e78fb0d046bd9db23a64448a81f046d5b4fe0bdd0eeebeec6759fab41",
+      "bytes": 1767
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/finger_0.obj",
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "bytes": 87872
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/finger_1.obj",
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "bytes": 64651
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand.stl",
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand_0.obj",
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "bytes": 9091
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand_1.obj",
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "bytes": 121863
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand_2.obj",
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "bytes": 596001
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand_3.obj",
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "bytes": 902145
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/franka_hand/hand_4.obj",
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "bytes": 151988
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0.obj",
+      "sha256": "e30a69784e5fd7bb6e879769b31b9c47fb701cf2342843aec03485601613748f",
+      "bytes": 6654212
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0.stl",
+      "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_0.obj",
+      "sha256": "c830c25874a8a5736580cfce6f247fd145782d0b050fa424b00dd8194d8b2872",
+      "bytes": 1444419
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_1.obj",
+      "sha256": "12f0affb9b540574f28ddf579413455a4728a093498457c9408539c31e2efcb8",
+      "bytes": 134554
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_2.obj",
+      "sha256": "19a4d2fd6fef4fa09e109349bdaa315a00a00b17c814392902665bd92217f94c",
+      "bytes": 949120
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_3.obj",
+      "sha256": "ed22c0de7adbc10618321715e047d1d9a36acca3260bc9497acd3ebda998e4e0",
+      "bytes": 2281227
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_4.obj",
+      "sha256": "bc99c6e6b4752daa010ec2ac4ab38457eca0a1b75fcb4a60139b8200e186454d",
+      "bytes": 291361
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_5.obj",
+      "sha256": "dbccb46d8a3bfd602cd110a0bf69036e42661ec89c0074f18dc10dbdd2c0325e",
+      "bytes": 2729951
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link0_6.obj",
+      "sha256": "9205596427463353249ab5acc7c7b4f5eb8be358527cd9e229b656b16f5bd1fe",
+      "bytes": 1448529
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link1.obj",
+      "sha256": "a9e73987b774f3fb76ec640c2f6e172b128736363792f1697a13d7795f745663",
+      "bytes": 862466
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link1.stl",
+      "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link2.obj",
+      "sha256": "1818f1eed57552d006a3e9353a670a39c271ac67833274efcee2403db7e4fa92",
+      "bytes": 853861
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link2.stl",
+      "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link3.obj",
+      "sha256": "20a2e2adfdeaf9ff775f0fba0ceadbbc7cc7ead2695759157e5f1ef1d1793e57",
+      "bytes": 2386762
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link3.stl",
+      "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link3_0.obj",
+      "sha256": "d15c6360be859d55ed1e0d5b08317c4c26d5b3a2a4743c04faf4cc07080f5c9a",
+      "bytes": 954393
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link3_1.obj",
+      "sha256": "89c2c02bdb1c5175d42c5181b4dcc0bb282fab1c5a0c2f99183c156ad45c2f6d",
+      "bytes": 2148256
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link4.obj",
+      "sha256": "ee1c2138efa48c4a4a355714138360bca4a447e1b41e04ed027979990c806ef1",
+      "bytes": 2384680
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link4.stl",
+      "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link4_0.obj",
+      "sha256": "8da93d2b65258890be3dfaa39f3cef5acd3d85e7e4e515eb6eb7e1284c3af795",
+      "bytes": 957444
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link4_1.obj",
+      "sha256": "0428a185f74edb3a23c81d71adc9269c8b63f73805f9d210960a5d425fee060d",
+      "bytes": 2145586
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link5.obj",
+      "sha256": "bb2d78050b1adf67d437762a0dcdf2e4a18b619069a0cdaefc0c44444451ba29",
+      "bytes": 3144250
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link5.stl",
+      "sha256": "dd17e688c7870e722283525879643d53a74c0024d328b0e14b034b54c8b6c31a",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link5_0.obj",
+      "sha256": "bcc32346b6558d8a1c42594b6988d4f6f68ece2e0a769c28b0242d5b398e1f86",
+      "bytes": 1235806
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link5_1.obj",
+      "sha256": "d2ef3af3be96ebb7c3f78cf3cedbdfb36b375db8dc32068c5dca613d9086e5e5",
+      "bytes": 186395
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link5_2.obj",
+      "sha256": "a897831482eed642e5d441d1a1abf0ede89d37672f8168ce2cd40d620e25daca",
+      "bytes": 2847962
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6.obj",
+      "sha256": "93743fd1dad97da9ec56f3ef2c08b7930f54402951f9eba3fdbc9018d85d314b",
+      "bytes": 5034722
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6.stl",
+      "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_0.obj",
+      "sha256": "f2a77f8890b3c24de62c6f23c2c63e59cb95b0e3986741d00ac12ec733156635",
+      "bytes": 544
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_1.obj",
+      "sha256": "4165ccedf27ec576c8fe3ec86702a43cbdacfb2a25328f6762721a92d22ca8fc",
+      "bytes": 15225
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_2.obj",
+      "sha256": "1111395c7a1c4a1c803e35969fb4cdd5a183a21292a0da5f0519f6d684083445",
+      "bytes": 2447199
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_3.obj",
+      "sha256": "86fc49381273ccc0079b1f7ce5a77ce363e85ef4df5ebcf2b07c1ae6173043e6",
+      "bytes": 23993
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_4.obj",
+      "sha256": "ed3f2d2a05b7d7704f4d04f38b99ce59792a8ef79e2f989567a0319a9f029599",
+      "bytes": 1378
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_5.obj",
+      "sha256": "435abeff7bded0c6e9af1e3f98857413fd3964a65c138efc9d99703d9dfffbbb",
+      "bytes": 345691
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_6.obj",
+      "sha256": "b76323550be892e32482f5dee5ca0631b080cf6543404495961834de19f89e71",
+      "bytes": 3762367
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link6_7.obj",
+      "sha256": "5189566a36197a91792e8704f9dd0097e63a1141c5aca72427fb977d4389c72a",
+      "bytes": 13910
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7.obj",
+      "sha256": "7a6304915e21db77a78e22b30c97ce923ee7cdd1ddb6e30cfb6d048b4c03293e",
+      "bytes": 4059462
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7.stl",
+      "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7_0.obj",
+      "sha256": "bc0953056e78a063c0de7c81f7ba320b74f7957ee5e7da0786e678be64769ab2",
+      "bytes": 887197
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7_1.obj",
+      "sha256": "bab975d59b724a0fac020d80c4483b77d29b9217485f0aae0b866a1b70b56fad",
+      "bytes": 933413
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7_2.obj",
+      "sha256": "7f7b27bab891757731d78c0b717a1da3fc48cebb6db5d3cd37994d768ce9b509",
+      "bytes": 2409912
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/assets/link7_3.obj",
+      "sha256": "3ccfdcf6043602577da37969244a660ebd72bc4bd172b7fbeb542809b62dccff",
+      "bytes": 1310980
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/fr3.png",
+      "sha256": "90d86d1ab4da14e4ff12d4d8967fabe134b0bbb6ad86ef1bff50633e64f65bdd",
+      "bytes": 1800219
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/fr3.xml",
+      "sha256": "17264b0f14fe4c2512c8a22bf0389628db9e93cf04d13a1416734111fa97ac81",
+      "bytes": 12781
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/franka_fr3/scene.xml",
+      "sha256": "967c4dfcf0cbae4c8b5bd9c5284652d5ef39034a5d8c188a54a3a3b2af8c0693",
+      "bytes": 816
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/CHANGELOG.md",
+      "sha256": "164a6ec704aa1714b1311f8b1538e20b4223b6ef08b7d3cb03edc26192892f67",
+      "bytes": 235
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/README.md",
+      "sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c",
+      "bytes": 2908
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/finger_0.obj",
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "bytes": 87872
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/finger_1.obj",
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "bytes": 64651
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand.stl",
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand_0.obj",
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "bytes": 9091
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand_1.obj",
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "bytes": 121863
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand_2.obj",
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "bytes": 596001
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand_3.obj",
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "bytes": 902145
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/hand_4.obj",
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "bytes": 151988
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0.stl",
+      "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_0.obj",
+      "sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+      "bytes": 296497
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_1.obj",
+      "sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+      "bytes": 103978
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_10.obj",
+      "sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+      "bytes": 343308
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_11.obj",
+      "sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+      "bytes": 22295
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_2.obj",
+      "sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+      "bytes": 590892
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_3.obj",
+      "sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+      "bytes": 47588
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_4.obj",
+      "sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+      "bytes": 211200
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_5.obj",
+      "sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+      "bytes": 17023
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_7.obj",
+      "sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+      "bytes": 30699
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_8.obj",
+      "sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+      "bytes": 3263194
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link0_9.obj",
+      "sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+      "bytes": 105629
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link1.obj",
+      "sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+      "bytes": 3274995
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link1.stl",
+      "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link2.obj",
+      "sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+      "bytes": 3295608
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link2.stl",
+      "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link3.stl",
+      "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link3_0.obj",
+      "sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+      "bytes": 3046804
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link3_1.obj",
+      "sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+      "bytes": 65260
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link3_2.obj",
+      "sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+      "bytes": 83591
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link3_3.obj",
+      "sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+      "bytes": 457684
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link4.stl",
+      "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "bytes": 15084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link4_0.obj",
+      "sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+      "bytes": 83486
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link4_1.obj",
+      "sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+      "bytes": 3148001
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link4_2.obj",
+      "sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+      "bytes": 455522
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link4_3.obj",
+      "sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+      "bytes": 67497
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_0.obj",
+      "sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+      "bytes": 824158
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_1.obj",
+      "sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+      "bytes": 63174
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_2.obj",
+      "sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+      "bytes": 3856621
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_collision_0.obj",
+      "sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+      "bytes": 3861
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_collision_1.obj",
+      "sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+      "bytes": 2412
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link5_collision_2.obj",
+      "sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+      "bytes": 3786
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6.stl",
+      "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_0.obj",
+      "sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+      "bytes": 157563
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_1.obj",
+      "sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+      "bytes": 27106
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_10.obj",
+      "sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+      "bytes": 368502
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_11.obj",
+      "sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+      "bytes": 32653
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_12.obj",
+      "sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+      "bytes": 3894
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_13.obj",
+      "sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+      "bytes": 3798
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_14.obj",
+      "sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+      "bytes": 444469
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_15.obj",
+      "sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+      "bytes": 668552
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_16.obj",
+      "sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+      "bytes": 3675358
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_2.obj",
+      "sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+      "bytes": 9916
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_3.obj",
+      "sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+      "bytes": 11943
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_4.obj",
+      "sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+      "bytes": 13846
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_5.obj",
+      "sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+      "bytes": 11841
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_6.obj",
+      "sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+      "bytes": 12597
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_7.obj",
+      "sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+      "bytes": 4382
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_8.obj",
+      "sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+      "bytes": 9131
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link6_9.obj",
+      "sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+      "bytes": 17616
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7.stl",
+      "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "bytes": 10084
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_0.obj",
+      "sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+      "bytes": 1362355
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_1.obj",
+      "sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+      "bytes": 121358
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_2.obj",
+      "sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+      "bytes": 208907
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_3.obj",
+      "sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+      "bytes": 123684
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_4.obj",
+      "sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+      "bytes": 85732
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_5.obj",
+      "sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+      "bytes": 226402
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_6.obj",
+      "sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+      "bytes": 99900
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/assets/link7_7.obj",
+      "sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+      "bytes": 792162
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/hand.xml",
+      "sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "bytes": 4547
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/mjx_hand.xml",
+      "sha256": "e66ffc7b178997c3fe277c6439b5eb7adb6f8d4be765cfd9e5d9a1f89780f7b8",
+      "bytes": 4226
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/mjx_panda.xml",
+      "sha256": "34f9894d6365637748bd46f788e1e6566d6107eef215f91605335c77e847ebf5",
+      "bytes": 14426
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/mjx_panda_nohand.xml",
+      "sha256": "276e72bd8ba4675c9e3d612d4b13d91c0f85130c5e103a11cb549d38dc54fa34",
+      "bytes": 10487
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/mjx_scene.xml",
+      "sha256": "4d801117a42f316e784146eee9d1c82d8f033e11a2ce0761687a63003f1c7b9e",
+      "bytes": 1209
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/mjx_single_cube.xml",
+      "sha256": "be4824e759da1f7f29c659786566f7299e1cb251162623b981d5196047560bc3",
+      "bytes": 1185
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/panda.png",
+      "sha256": "d6ad5fcfc60237f0f006cf22d6e0b70febb559f609d915cd4316e9f1ad383c2d",
+      "bytes": 2192427
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/panda.xml",
+      "sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+      "bytes": 14438
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/panda_nohand.xml",
+      "sha256": "e7090a5e2384b18a223ef532d98bf914f7f9a6b74dc8bc9f74c8291201074071",
+      "bytes": 11246
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/robots/panda/scene.xml",
+      "sha256": "59b4ad053a3d354eb5dbbc10137b220ae10312478b95a8fa41f82fa5dd48908f",
+      "bytes": 865
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/scenes/tabletop_pick_place.xml",
+      "sha256": "f7d6ecada39b3ee3596802881b8211ff1bb8c8602d8ecb837902c7ebd78d0ef4",
+      "bytes": 17482
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/assets/scenes/tabletop_pick_place_fr3.xml",
+      "sha256": "9d59248910c5fd84b108815b754bb0f733a26dc513529f88f087efa2db9ea227",
+      "bytes": 4377
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/base.py",
+      "sha256": "1374f2da5a2e7d10f5366d98cad5b495c320a7c840d17454b29261c6d52c28d2",
+      "bytes": 4659
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/registry.py",
+      "sha256": "eb79760400d9161d199e4b67e123b24312f750e089b03f32365ac12bf6b1f8db",
+      "bytes": 777
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/tasks/__init__.py",
+      "sha256": "c98719c73aaf73cecfcc6249290c26c4f3a95b824e823e4a97aa40cd20c0ccdd",
+      "bytes": 173
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/tasks/pick_place.py",
+      "sha256": "332fcc6e782631431835d8fbd95b3d613fcf6be2173c198af93a5efa63a40dc8",
+      "bytes": 3944
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/mimic/envs/tasks/pick_place_fr3.py",
+      "sha256": "0140b2477a59810d62cfcdc24bb6792a5f5f6303d89c5fa67c26245a33f1a47f",
+      "bytes": 3406
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/upstream/LICENSE",
+      "sha256": "96d197c2e543514438ab080e1f8eaeec1008c3c9a510cf3ea0274de60da60820",
+      "bytes": 1062
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimic_robot/upstream/PROVENANCE.md",
+      "sha256": "ae6efe4e7fc71e5abfbe50b98e0541fe6049726c107a977a27a7ca68a988a6a9",
+      "bytes": 394
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/README.md",
+      "sha256": "e265570b864ae4a085ae37a6399809528285712503580a01ac03a62492adddc6",
+      "bytes": 3007
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/UPSTREAM_SQUARE_AUDIT.md",
+      "sha256": "d00bda2d101d22812980e733ef5b531c48fac78c8dbaef1b791903a52c83b74c",
+      "bytes": 5151
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/__init__.py",
+      "sha256": "cf4a256c7e66ea70382d3cb231627c0b038dd67aa0e86d89bec1a80625dee345",
+      "bytes": 126
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/assets/ROBOSUITE_LICENSE",
+      "sha256": "e05a6e99297613b70c759887247d8176ced42139c9aad75888985843727fc652",
+      "bytes": 1303
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/assets/square_nut.xml",
+      "sha256": "dc596d01baa8bd742e679428ed73c390b09bc4900f2fd5cf3f7cf12be3e8352d",
+      "bytes": 1791
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/config.py",
+      "sha256": "1e972fb8fa74ed1b301c7cb5256128a7f31b00c50952127508c0e0491040d52f",
+      "bytes": 5774
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/scene.xml",
+      "sha256": "6cb63958433fccc88f45218d0ff002efd030ae5ab10163e35ba7f5421f08f0af",
+      "bytes": 4117
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/task.py",
+      "sha256": "4c807eead821e7a1c93bf44647578d5e0316afc5576152c7c96abdfdb4c23c4c",
+      "bytes": 11062
+    },
+    {
+      "path": "franka-imitation-learning/environments/mimicgen_square/validation.py",
+      "sha256": "a49438e35511fc0b2f5d42e8db3ee44db4b814cba08f98035657d62caa67dabf",
+      "bytes": 13703
+    },
+    {
+      "path": "franka-imitation-learning/evidence/collection/square_geomagic_xy50_v1.config.json",
+      "sha256": "68da783c5a73c6bd015e497800914e6d33b96e1262404a4929eb62e6505af747",
+      "bytes": 718
+    },
+    {
+      "path": "franka-imitation-learning/evidence/collection/square_geomagic_xy50_v1.frozen.json",
+      "sha256": "5c82773f846359951c265e59d66d1825d23d09a361661da09201dedc61dd22cf",
+      "bytes": 202
+    },
+    {
+      "path": "franka-imitation-learning/evidence/collection/square_geomagic_xy50_v1.plan.json",
+      "sha256": "cfbd75802edfdedb089eef9e96899674cd99f81693e3c9417e5ef20f736d485e",
+      "bytes": 34612
+    },
+    {
+      "path": "franka-imitation-learning/evidence/collection/square_geomagic_xy_eval20_v1.config.json",
+      "sha256": "b50946cbb8eabddb61122039fe9cafab9a90f8725f511e78de8256a2e429133c",
+      "bytes": 242
+    },
+    {
+      "path": "franka-imitation-learning/evidence/collection/square_geomagic_xy_eval20_v1.plan.json",
+      "sha256": "a50093063ec2c59e2a786eea1183b58e55c01806d5314e0cdd05483fe18949d2",
+      "bytes": 16693
+    },
+    {
+      "path": "franka-imitation-learning/experiments/mimicgen_square/configs/collection/square_geomagic_xy50_v1.config.json",
+      "sha256": "68da783c5a73c6bd015e497800914e6d33b96e1262404a4929eb62e6505af747",
+      "bytes": 718
+    },
+    {
+      "path": "franka-imitation-learning/experiments/mimicgen_square/configs/collection/square_geomagic_xy_eval20_v1.config.json",
+      "sha256": "b50946cbb8eabddb61122039fe9cafab9a90f8725f511e78de8256a2e429133c",
+      "bytes": 242
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/ARTIFACT_MANIFEST.json",
+      "sha256": "b150748fff58186362558644eba1ca5e75ebd28a19eebc0d6314dfdee09883a5",
+      "bytes": 3308
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/EXPORT_MANIFEST.json",
+      "sha256": "f28e5ef600ec6c08b64808068ffabedd44fc41ff7d4e330b72a28e8c7c859c51",
+      "bytes": 18356
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/act300k_per_state.csv",
+      "sha256": "ff8ca845a57e793e083579360dc380e339125628f5b099421b4370897cc16c06",
+      "bytes": 32689
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/dp480k_per_state.csv",
+      "sha256": "783b461fcfece7096cf0e6be64d5d40d0680dcd7bc955b6109ebb37ac9ff9d9e",
+      "bytes": 31574
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/01_act_checkpoint_success.png",
+      "sha256": "7c12b1cf6b1189373dbc2769546565ee7cdfc29a033d31e8bf53416811c067bc",
+      "bytes": 172831
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/02_dp_checkpoint_success.png",
+      "sha256": "a03c4b1cba9c969108ff90bd8ade1a052121609a742ce85a9e4ff8c6f7a7044e",
+      "bytes": 157434
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/03_act_dp_checkpoint_comparison.png",
+      "sha256": "0d1fa0ed92e7eadad2a7277c751ded077dda565e06456cf464378509b8dbc012",
+      "bytes": 228260
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/04_act_checkpoint_region_success.png",
+      "sha256": "2f3eb452fb6e8d5e6842bc4a4d6c199bd0e546ad46758033e08f4f759ee3036e",
+      "bytes": 129201
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/05_dp_checkpoint_region_success.png",
+      "sha256": "9c8186f177a09cf1096229813e1818a863ee7e79f231f7deb5e33d0094872280",
+      "bytes": 151264
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/06_act_dp_xy_success_map.png",
+      "sha256": "cea5109df56b1c5b3c718c3ffc91c189798e444f687f16db417e0ba87929653e",
+      "bytes": 169530
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/07_test50_xy_plan.png",
+      "sha256": "db56b549b6ed07300379466b1e8fb302920ce0671d3aa2111fca9c63fffe953d",
+      "bytes": 114529
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/08_test50_act_dp_xy_success_map.png",
+      "sha256": "9356a856de384b3ec01b44b7d3e51c37f40d0f833c1cc202ca63b6747f5d2ef0",
+      "bytes": 117879
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/09_test50_row_success_rates.png",
+      "sha256": "c83fcb06d29ba0ebae642bacdf5810c5739b0180698686465f183f9478ae2765",
+      "bytes": 61621
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/10_test50_region_success_rates.png",
+      "sha256": "19a9d9151d1c78e7e1fb5d65dd936fee82c5bd6368bb2868e16e91e532d55099",
+      "bytes": 64033
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/11_test50_failure_stage_comparison.png",
+      "sha256": "6930e4226b09fe677ec710b27e09d5afcb3de1d466093404955352d8d292035b",
+      "bytes": 47332
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/12_upper_lower_demo_trajectory_analysis.png",
+      "sha256": "72dc1c956d55fe619e149b2d31f1d9982533f99324078a79149d945362bfb66b",
+      "bytes": 542940
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/13_test50_final_results_table.png",
+      "sha256": "5668411e7e57c741b7bf5bb1490ae316f6258799dd08c5a73a5b8bdf7f818c59",
+      "bytes": 65717
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/figures/14_checkpoint_success_table.png",
+      "sha256": "ddbff675b0633290c4e39614e7be641afae7881020aecab8420b3cd89e62fa16",
+      "bytes": 381051
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/act_dp_paired_results.csv",
+      "sha256": "e04c29f66d00ea756a0041dd40f900081dad72ff943e7841585b814eb901bed3",
+      "bytes": 4880
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/checkpoint_success_rates.csv",
+      "sha256": "dd944fa23189fe4a2d16ddbdbae6e3f1e146fb019de0f1c5736b771aaa5ac186",
+      "bytes": 569
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/demonstration_group_comparison.csv",
+      "sha256": "35dca2e014282e81bfbc9caefd977ff11afb8ab314b138f901c1cf99307551f5",
+      "bytes": 11783
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/failure_stage_summary.csv",
+      "sha256": "dc8424f356ea73efa4e0c655280bc8303c2cd7471cc92d3b66759d900e5c20aa",
+      "bytes": 245
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/final_test50_diagnostics.csv",
+      "sha256": "26a040181c5a56b969cba0b4170e61d3e3a0368b412caa6d715b398acd6f2448",
+      "bytes": 734
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/final_test50_results.csv",
+      "sha256": "e39c3d06d66b5bc936ad02433e899f12f795eca64bf283d1e83c18d9150ab395",
+      "bytes": 255
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/final_test50_row_results.csv",
+      "sha256": "6cd9160317bd0452b8545fa0a555856855e682d959e6ca368682843487f77b15",
+      "bytes": 237
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/tables/paired_category_counts.csv",
+      "sha256": "38ea6ef06f8b875db159c2b5413d58ea5022a1649fed2327dbf6192e8eb58af6",
+      "bytes": 83
+    },
+    {
+      "path": "franka-imitation-learning/results/square_test50/test50_states.json",
+      "sha256": "6391a60e09e2aa71799bcb89204ea8569518d0e4d9b7c26c182a542bd7e15cbb",
+      "bytes": 40476
+    },
+    {
+      "path": "franka-imitation-learning/runtime/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "franka-imitation-learning/runtime/alignment_preview.py",
+      "sha256": "9924d1ab5aaf9a138155249a051acd3ec78d381fa719ee5b91e37cd88549c94f",
+      "bytes": 4832
+    },
+    {
+      "path": "franka-imitation-learning/runtime/camera_schema.py",
+      "sha256": "2d1acfc0be0f9ba72ad9ecf80545639cbeb6a3537acfc67a852ad7fcbcc4c412",
+      "bytes": 2376
+    },
+    {
+      "path": "franka-imitation-learning/runtime/collection_counts.py",
+      "sha256": "8b31d2a1321ce606cd683847d670d6ebbf67dbe9ddbe3fa104a58c02e2cf990b",
+      "bytes": 3645
+    },
+    {
+      "path": "franka-imitation-learning/runtime/collection_plan.py",
+      "sha256": "c30f3127e5e6860bb6476be330c183eb9b8160dc070eb4cea169c061dacaea92",
+      "bytes": 16654
+    },
+    {
+      "path": "franka-imitation-learning/runtime/collection_preferences.py",
+      "sha256": "9ff1a0b4386d52eaae8dbf4ef585f0ceb1ac4542728cc36354f0ff55201313e5",
+      "bytes": 1595
+    },
+    {
+      "path": "franka-imitation-learning/runtime/contact_replay.py",
+      "sha256": "3952d3dfbdfc8496463e26c365e91882c7aa8677853716c3a25528a05fd756bd",
+      "bytes": 8062
+    },
+    {
+      "path": "franka-imitation-learning/runtime/dataset_validation.py",
+      "sha256": "25e7a0b394e43a718ade5da2e14803514546344ff04d9f19c02dac6327312b4c",
+      "bytes": 12281
+    },
+    {
+      "path": "franka-imitation-learning/runtime/diagnostic.py",
+      "sha256": "946ea8283b5e89fb0d01b0ab4f9fcda960c20e4bad6c36b3b56975c7a28a3cd0",
+      "bytes": 14617
+    },
+    {
+      "path": "franka-imitation-learning/runtime/episode_naming.py",
+      "sha256": "3be282aab1de93afd4d6593df5ae01fae6ccb9344a070fea1a88197ca38a3392",
+      "bytes": 5531
+    },
+    {
+      "path": "franka-imitation-learning/runtime/grasp_guidance.py",
+      "sha256": "cc3b102b65eda90ccda668b30d22b105a82a0b630e3cbafccfecbf44f6c7ff48",
+      "bytes": 7758
+    },
+    {
+      "path": "franka-imitation-learning/runtime/grasp_provider.py",
+      "sha256": "627f8762f4ebd0775a96a431a4bf09a9819cb2dcb08241dff8c8d334ab317254",
+      "bytes": 4704
+    },
+    {
+      "path": "franka-imitation-learning/runtime/ipc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "franka-imitation-learning/runtime/ipc/omy_state_client.py",
+      "sha256": "54998edd102914d95631d738514e86cc41b64611a04b7cfde8b2852af53a9b7e",
+      "bytes": 3512
+    },
+    {
+      "path": "franka-imitation-learning/runtime/ipc/protocol.py",
+      "sha256": "c9e203e84a45ba82c5b465e81b798309f0efe98408986be7d77f2714444f18c4",
+      "bytes": 6887
+    },
+    {
+      "path": "franka-imitation-learning/runtime/live_runner.py",
+      "sha256": "432958ee7a19133715241899738a9085e0666b55bce1b90ac1a19796f81c2b07",
+      "bytes": 21684
+    },
+    {
+      "path": "franka-imitation-learning/runtime/policy_evaluation/__init__.py",
+      "sha256": "727bd33ce09f73cbf0496f0752ae3fac70ae5df26bbafa8c9d667f2730ff363a",
+      "bytes": 269
+    },
+    {
+      "path": "franka-imitation-learning/runtime/policy_evaluation/environment.py",
+      "sha256": "0498649950bb041980ee4959e2a105823467b461435283b19ef6d19f8d16378e",
+      "bytes": 12333
+    },
+    {
+      "path": "franka-imitation-learning/runtime/policy_evaluation/policy.py",
+      "sha256": "7386e13d4b66707d2dfa14ee11b1c7c280472dc13fdc851718ea10bc86b452cc",
+      "bytes": 5340
+    },
+    {
+      "path": "franka-imitation-learning/runtime/policy_evaluation/runner.py",
+      "sha256": "6644942c287199774288b0625db1f5a53890ac50b35d919c16317b865afd2174",
+      "bytes": 18136
+    },
+    {
+      "path": "franka-imitation-learning/runtime/recording.py",
+      "sha256": "86708a0b1c3729cf423a8f834e4364f3e7731194fd244c8b56a8320c8954c44d",
+      "bytes": 29548
+    },
+    {
+      "path": "franka-imitation-learning/runtime/robot_observation.py",
+      "sha256": "4b16bca8e85019879e2ab3258bee3780168a2ed1092190dda8487f16f9ac9080",
+      "bytes": 1681
+    },
+    {
+      "path": "franka-imitation-learning/runtime/sample_weight.py",
+      "sha256": "e2831ac72177c5b86e5c327980df58c37c6ce2963196c3f46545873d528e8603",
+      "bytes": 4918
+    },
+    {
+      "path": "franka-imitation-learning/runtime/stratified_plan.py",
+      "sha256": "a24dba3505c2eb212e75e21a3eebda50355a141fa3b6985c0b5065f4946da4aa",
+      "bytes": 22738
+    },
+    {
+      "path": "franka-imitation-learning/runtime/teleop_backend.py",
+      "sha256": "c5212ede2be15e75a468a2d58c3bd12cc1028af1238ecf44a88973d650bb7572",
+      "bytes": 26878
+    },
+    {
+      "path": "franka-imitation-learning/runtime/touch_weight_collection.py",
+      "sha256": "636b1695153aacc440d58525321553d54e5fe79d1c13f7556c39adb5b28f3ec7",
+      "bytes": 2602
+    },
+    {
+      "path": "franka-imitation-learning/runtime/ui_camera_layout.py",
+      "sha256": "2ac8c291baf1239bea25ad29da5f78fb0b84d00282b52f414eee3fd00192a1f5",
+      "bytes": 1348
+    },
+    {
+      "path": "franka-imitation-learning/runtime/ui_worker.py",
+      "sha256": "f972f825e00e75649f2d6421e143b532a5ed3dc29e331e90dd9c87f1fed99b86",
+      "bytes": 55892
+    },
+    {
+      "path": "franka-imitation-learning/runtime/workspace_validation.py",
+      "sha256": "116d05f95a550f015eefbf2cc4aba93f887b9c0c2f59823d9587ccc250106b7f",
+      "bytes": 15214
+    },
+    {
+      "path": "franka-imitation-learning/scripts/analysis/failure_classifier.py",
+      "sha256": "79a69f2d81f7a77fab2e6a91a365c61ad3a6ec7db4d3a1efb9a8ea2d53073157",
+      "bytes": 4139
+    },
+    {
+      "path": "franka-imitation-learning/scripts/evaluation/evaluate_policy.py",
+      "sha256": "a63c637b0bdf2a0fb6b4dbccc1f3928183f5d44880b4dd9423e18998c938859c",
+      "bytes": 4750
+    },
+    {
+      "path": "franka-imitation-learning/scripts/runtime/run_ui_backend.sh",
+      "sha256": "1de24de3c45ecf03c2f8bc6b9e36f6b4e652c9c4501c82986c6ec98862a712e5",
+      "bytes": 1177
+    },
+    {
+      "path": "franka-imitation-learning/scripts/runtime/run_ui_frontend.sh",
+      "sha256": "75741e5e09e72db852d673bcd947dd486c4d562ddaae9fa945429794b4e5afcf",
+      "bytes": 1237
+    },
+    {
+      "path": "franka-imitation-learning/scripts/training/train_act.py",
+      "sha256": "a763264e043e95e1ac434ebb5224ce7899c6fc5b12e1712cea477c9771f14aef",
+      "bytes": 225
+    },
+    {
+      "path": "franka-imitation-learning/scripts/training/train_diffusion_policy.py",
+      "sha256": "3d55db9913cddd772f2e548d4fd656c3038b4f2f72fc3ce2bec0855f405bf4dc",
+      "bytes": 231
+    },
+    {
+      "path": "franka-imitation-learning/scripts/training/train_lerobot_policy.py",
+      "sha256": "ce35fd16603aadd7c9e396d37f79e3ce18382f13f9dd73af5d7286bd71a2f9cc",
+      "bytes": 7045
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/open_console_window.py",
+      "sha256": "a04fe15ecd26564833d8b9a9b80dcb4eb5c3d93b2d533e24cce5c2af923d8b79",
+      "bytes": 1701
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/print_ui_defaults.py",
+      "sha256": "99fcc907d2ccba3c08c1eec1b500a2f7fdc66203da5127ef11bb6cb2a269517a",
+      "bytes": 2713
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/run_ui.sh",
+      "sha256": "374507dc6f8c51d588964021b7f8d9ae0fcbc60ddcbc40f2d00d31fb2a5e2855",
+      "bytes": 17437
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/ui_geo",
+      "symlink": "run_ui.sh"
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/ui_geo_sq",
+      "symlink": "run_ui.sh"
+    },
+    {
+      "path": "franka-imitation-learning/scripts/ui/ui_sq",
+      "symlink": "run_ui.sh"
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/launch/FR3_omy_bridge.py",
+      "sha256": "3b92baa12485a6a156fac31fd7b566c8ce2f39d70bd4d837b02badb89c424bfa",
+      "bytes": 61100
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/Aloha_gripper.stl",
+      "sha256": "7cbe8fdbf50904903f1137d8c581cdd24d7768944485905735d53699d405a9fe",
+      "bytes": 4913184
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/base.stl",
+      "sha256": "71c5b655e9e410f3c59a5e6b24f396cd7b73c505ee2a323c1f9f2f50f1b73bb4",
+      "bytes": 24884
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/base_unit.stl",
+      "sha256": "8b308dd51cda9c6f9d0a97ffc7fd918fae039b23df8876bb6c4474712e10d0e9",
+      "bytes": 4798984
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/flange.stl",
+      "sha256": "f32f181c0bcb7ff1fd41e6b2424dd37d619bf63c8cef1c6088e4cedd816c16ec",
+      "bytes": 144484
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/l1.stl",
+      "sha256": "c08b45dce10d59dbef15ef2f41bae6549783015ea16b7498ec07b108a9cbfa6f",
+      "bytes": 6284
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/l2.stl",
+      "sha256": "039d4c7b7ed390c894b10d1f0a5e6c53c39e2ad6553ad6de7823450cbc5e42be",
+      "bytes": 7684
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link1.stl",
+      "sha256": "e8dc1fbcd6ef7b985fc279fc76aed3b961b69537e765227b27167df294730064",
+      "bytes": 2261084
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link2.stl",
+      "sha256": "95cf64ec28eb851b1aa2ea547055fd5a9fdef622c4686be553f3432679e41de3",
+      "bytes": 3958184
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link3.stl",
+      "sha256": "de0d3a0450a6371dec846f14a47e3505ce0057fc2b20a086bc09b6f5debcbfc6",
+      "bytes": 2609884
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link4.stl",
+      "sha256": "b93ad4d268d04c05cfb1e0acbe914b11603428c37f727b0275af69b88b505aff",
+      "bytes": 1919584
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link5.stl",
+      "sha256": "fb1e8a0b1ed0105a2105c8d1a16b8d00e3a5b98307009f1dca1aad5e7e90b5f9",
+      "bytes": 1919584
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/link6.stl",
+      "sha256": "add1c36a63077d649b4e1820d3909f3c7fdf74ee7d40030b29d7f943467e90e7",
+      "bytes": 1321484
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/omy_gripper/aloha_gripper_no_finger.stl",
+      "sha256": "07d5db663910c494c6d1b0168753b01aa89efd34a4c97cad6fcc73a46b08becf",
+      "bytes": 4813984
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/omy_gripper/left_finger.stl",
+      "sha256": "dcab3850effa792257c88745000d990e83d742b6879372e89cc55b447b3af8a8",
+      "bytes": 40984
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/omy_gripper/right_finger.stl",
+      "sha256": "efd422700483702d4a7621f83f5fdb644d80041b47986931d25836027e66b880",
+      "bytes": 39784
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/r1.stl",
+      "sha256": "7310e06490a483e59a104ee09f0655450f54c406b3034cdaadf60ae42667f509",
+      "bytes": 6284
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/assets/r2.stl",
+      "sha256": "94fcdf63f23b4ba03e3f6ce07aa24c6bab0ca4faff0d18342f26be460e0dbf99",
+      "bytes": 7684
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/omy.png",
+      "sha256": "bb8ef15e2224bbd2f86ceea0892e1957c64f653b97d1ee101745c25716c80680",
+      "bytes": 213085
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/omy.xml",
+      "sha256": "b5d812d0856b517a1aade6da298c9c2ff6665df2c10314af21b183fac6401b7d",
+      "bytes": 6196
+    },
+    {
+      "path": "franka-imitation-learning/teleop/omy_fr3/robotis_mujoco_menagerie/robotis_omy/scene.xml",
+      "sha256": "cd53385d44f49facf0ae782e08643594fcacf9662ea692e621ad493714b10a2c",
+      "bytes": 876
+    },
+    {
+      "path": "franka-imitation-learning/tests/mimicgen_square/__init__.py",
+      "sha256": "16c51ec10fe3b2653520a4a2c855b5e261070c5bfb8a752e9e58dfd14282f43f",
+      "bytes": 51
+    },
+    {
+      "path": "franka-imitation-learning/tests/mimicgen_square/test_environment.py",
+      "sha256": "433aff4837acd70c58cdf0f021a52d4a85efe9985dd2cecaf2776825962f1f6a",
+      "bytes": 6338
+    },
+    {
+      "path": "franka-imitation-learning/tests/mimicgen_square/test_lerobot_compatibility.py",
+      "sha256": "2b906cc19058d1aceaf670bad379d594529fa26c24f35839f06b5fa8c18a532b",
+      "bytes": 3717
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_camera_schema.py",
+      "sha256": "e88035450d0e16131781bd54d339bfa3eaedc774e7e214f17b8d1a128c223625",
+      "bytes": 5841
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_episode_outcome_storage.py",
+      "sha256": "91a40b87d6ec5fd08a3ecbf96229b1eb95c3576b946cd61d27e760f4eebd6993",
+      "bytes": 16984
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_ipc_protocol.py",
+      "sha256": "f4d26f8f7520868426e4dca094aba7c583d4f09188b3b2d68ec15900607def85",
+      "bytes": 877
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_png_writer_optimization.py",
+      "sha256": "4f9a2eb531394adc01b40daf2acf2c702655c019d674ba96c095ef1126f47a9f",
+      "bytes": 5042
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_publication_contract.py",
+      "sha256": "ca9d1514eca715f2e6d8547ff7f6c5a37249c903f56c8d51c22e736a1f209835",
+      "bytes": 5279
+    },
+    {
+      "path": "franka-imitation-learning/tests/test_sample_weight.py",
+      "sha256": "aa42f4b617f89a3907717909a8dea7f05210ce48af8566163f8afced0d348428",
+      "bytes": 10418
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/__init__.py",
+      "sha256": "17aab22a3742762dba5561dbb018bd862a7fe73f022efea0f5aae2c60df566b5",
+      "bytes": 56
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/__init__.py",
+      "sha256": "d7f9d97bec10f8f721b2f722e09ad919128198d4ad760ee00b1c655d9d3664a7",
+      "bytes": 2132
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/failure_analysis.py",
+      "sha256": "eba4fbff40a261fa6b9a8404528251ef13930d6e25d47faa2e77239af8ca2ce9",
+      "bytes": 437
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/metrics.py",
+      "sha256": "75c523e5501b1d7e78559986e9fd5f5e9e396d1fd7cf570275334515e2f49ef8",
+      "bytes": 1151
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/pairing.py",
+      "sha256": "1ce41719f33907973b47946d4105069a7bafad65267609b7d2c4078cbab65849",
+      "bytes": 1279
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/parser.py",
+      "sha256": "0f2ea4da6a47b6ed013a201836a5a9c7ac0b949d5cbb863571bc9d3747f377cc",
+      "bytes": 8781
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/analyze_adapter/run_index.py",
+      "sha256": "65a9a4bf359907787cd9c4f36d16d9f93345826a2f7db3b64170ee40742446d3",
+      "bytes": 784
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/common/__init__.py",
+      "sha256": "bbe00f61a236215a8f2f443fd0c36b377ae9ae5ec15475eb86b8936d8c3e64f1",
+      "bytes": 33
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/common/camera_projection.py",
+      "sha256": "3576784ef09fbf17a4ccdb461b81df3f97768c48b8c8b6d783dc1b030afcf727",
+      "bytes": 4135
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/common/process.py",
+      "sha256": "00a4cb81fa2a3c3e710f9f265e690609d72935c22d2f8534364cc8c20bed858e",
+      "bytes": 4878
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/contracts.py",
+      "sha256": "31bee06e44d479bbdadc393f0b571f8d84594f640b9e5565fd6d4e2950bdb4e1",
+      "bytes": 594
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/conversion_adapter.py",
+      "sha256": "35979b420f762026077a9827f0e720ed26bd2d37a87dd46ebcf10f3a80a3906f",
+      "bytes": 3061
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/eval_adapter/__init__.py",
+      "sha256": "ccfd5dba05c13e26e66d41a7c7883754ac5274daabb33b6c3e2492e60206ed17",
+      "bytes": 9747
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/eval_adapter/discovery.py",
+      "sha256": "63617056688eba190de90f101f714e3155a3cdb55204d07e2781fde6e5ff7d57",
+      "bytes": 5233
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/experiment_paths.py",
+      "sha256": "1b2c47eec731a2486b20a571b8160df2d22418b87c305bde5684a71384556987",
+      "bytes": 2549
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/native_folder_picker.py",
+      "sha256": "1b3fbfc6f68ee95fca8ade1490bbfb1f97a63a6ace124b39a3377f2781ff663e",
+      "bytes": 5205
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/paths.py",
+      "sha256": "02bfbce20571c8fd8cab95cc31c13ee34b97e8141511dae72f622425e2f2a688",
+      "bytes": 1290
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/server.py",
+      "sha256": "919d263e254dd56da95a94880b7b377f88b8461a95bbd6aa06cc0007989c77c9",
+      "bytes": 14633
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/task_profiles.py",
+      "sha256": "4675e2a84fce88f92d7b7a4389f12e49d468598b41fa113e0efab349d430a4bf",
+      "bytes": 9224
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/train_adapter/__init__.py",
+      "sha256": "3dd3f065aa917805aba42a63a8a0634c2789787d89ac10c522ef62a9b25186e0",
+      "bytes": 11828
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/trajectory_reader/__init__.py",
+      "sha256": "6a80660f58feac13ed2d15efb754194e331b4ae3dc45d53b9605c6ecf262349c",
+      "bytes": 3751
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/ui_session.py",
+      "sha256": "611d97f44f058d9c2e797e5ff27ef85a7c90e1fe3e4f0558dee4447439e3d0ba",
+      "bytes": 807
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/work_adapter/__init__.py",
+      "sha256": "6284faee2148d96024edaddc1ba3e88c5cb55661475996f2d3bfc2f0d540e34a",
+      "bytes": 1747
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/work_adapter/geomagic_device.py",
+      "sha256": "d23d49c11940f3977871f79c6c874d53cc53fdd74404cc4660586746b1e28604",
+      "bytes": 24697
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/work_adapter/runtime.py",
+      "sha256": "f27f8b32ce51b6cbc800232c32bdf86a740ff0c19000c1106e546ff3ef94ac74",
+      "bytes": 68788
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/backend/work_adapter/touch_weight_runtime.py",
+      "sha256": "67a08da92ad546317fcb234e65ab8d845ace1900f4d801a6eb2bf2fcc1d5b26c",
+      "bytes": 3136
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/components.json",
+      "sha256": "d68dec09ccc46d45f91b352b6f2adc414a14fd805231fbc832694be6730ba4f1",
+      "bytes": 396
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/index.html",
+      "sha256": "3876094b355e1c3566a873a3d142e548aee681d27116f4c3de5bb0ea8bfcdbe7",
+      "bytes": 320
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/package-lock.json",
+      "sha256": "5204e27633e52c4c94e54ea4f572eb86816d0f9032d0369b9fff74630b2c8df4",
+      "bytes": 93118
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/package.json",
+      "sha256": "3ff36281a6c852ce6cde45931aab2cc1f18620bdca66b083f694fd1610d35fac",
+      "bytes": 563
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/postcss.config.js",
+      "sha256": "08910ce1d5cd87d2167e9c78b77262bf985b3f07dc5037ff745ecd6a759fd0c0",
+      "bytes": 67
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/App.tsx",
+      "sha256": "ca302451da6e6451be47d6d01200b4cf0df42057a04fe154c2d9a428bd29979d",
+      "bytes": 76633
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/GraspGuidanceHUD.tsx",
+      "sha256": "d54153ada21a363141122e2327ca45452ea0a565b93109c6f1fc10b0c0441b70",
+      "bytes": 1699
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/SampleWeightPanel.tsx",
+      "sha256": "bec32d7b128e6e226768222ec1b713cc222d0648f820d4e600c619d179b8e6a2",
+      "bytes": 7152
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/api.ts",
+      "sha256": "f18d5ed31d8359fb247b1317c45f3272c39137d75697c387419fc01e21e9a9b8",
+      "bytes": 2081
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/index.css",
+      "sha256": "fa300d0973828f1d555274e05d01bc2ab51ae7eb4481361d0656e477ee66b2e5",
+      "bytes": 24660
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/main.tsx",
+      "sha256": "b10869122e05a4e44207e03b20166365f949ffd4ea850a8ffb17b7e41a685c16",
+      "bytes": 231
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/mock.ts",
+      "sha256": "3ace62dfd7e90e9195f0be33bb84bc0896d59d3c23fd040576e466c7c06dc23e",
+      "bytes": 1801
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/types.ts",
+      "sha256": "bba7dd88f7b59712cf11b840a6c9af046195942c6066c606baf5a905a89a870b",
+      "bytes": 7214
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/useConsoleLifecycle.ts",
+      "sha256": "8695536876e99e0448d3ed204e6e43be110e24bf12f3059af96ea31bfb109c04",
+      "bytes": 939
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/tailwind.config.js",
+      "sha256": "69d34ee32d626b9a429978b58013ab385c394daae9bf106d72449eb1f55939e6",
+      "bytes": 156
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/tsconfig.app.json",
+      "sha256": "44efc7c82fd458eaa9d7945d2680d9fedd53944ff8fa4650b2797d599acf0b74",
+      "bytes": 507
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/tsconfig.json",
+      "sha256": "b6d51d37a8d51b993bd758b7043fa9233eea24d34a4041198ff73c063d9ed66c",
+      "bytes": 71
+    },
+    {
+      "path": "franka-imitation-learning/ui/experiment_console/frontend/vite.config.ts",
+      "sha256": "bb9eff385610324de3fa0389a4f7b87eb7f72ad098a2ec3d926eae1e38b03a60",
+      "bytes": 194
+    }
+  ],
+  "manifest_scope": "manifest_sha256 identifies the full pre-pruning validation snapshot; files below are its retained repository entries, before publication-only edits"
+}

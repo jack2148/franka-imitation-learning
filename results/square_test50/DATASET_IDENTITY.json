@@ -1,0 +1,116 @@
+{
+  "codebase_version": "v3.0",
+  "robot_type": "fr3",
+  "total_episodes": 50,
+  "total_frames": 48272,
+  "fps": 20,
+  "features": {
+    "observation.state": {
+      "dtype": "float32",
+      "shape": [
+        16
+      ],
+      "names": [
+        "fr3_joint1_position",
+        "fr3_joint2_position",
+        "fr3_joint3_position",
+        "fr3_joint4_position",
+        "fr3_joint5_position",
+        "fr3_joint6_position",
+        "fr3_joint7_position",
+        "fr3_joint1_velocity",
+        "fr3_joint2_velocity",
+        "fr3_joint3_velocity",
+        "fr3_joint4_velocity",
+        "fr3_joint5_velocity",
+        "fr3_joint6_velocity",
+        "fr3_joint7_velocity",
+        "fr3_finger1_position",
+        "fr3_finger2_position"
+      ]
+    },
+    "action": {
+      "dtype": "float32",
+      "shape": [
+        8
+      ],
+      "names": [
+        "fr3_joint1_target",
+        "fr3_joint2_target",
+        "fr3_joint3_target",
+        "fr3_joint4_target",
+        "fr3_joint5_target",
+        "fr3_joint6_target",
+        "fr3_joint7_target",
+        "fr3_gripper"
+      ]
+    },
+    "observation.images.operator": {
+      "dtype": "image",
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "names": [
+        "height",
+        "width",
+        "channel"
+      ]
+    },
+    "observation.images.wrist": {
+      "dtype": "image",
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "names": [
+        "height",
+        "width",
+        "channel"
+      ]
+    },
+    "timestamp": {
+      "dtype": "float32",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "frame_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "episode_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    },
+    "task_index": {
+      "dtype": "int64",
+      "shape": [
+        1
+      ],
+      "names": null
+    }
+  },
+  "splits": {
+    "train": "0:50"
+  },
+  "name": "square_geomagic_xy50_v1_convert",
+  "metadata_sha256": "ec038b499fbb97e7c4243cb4441b4052bdb13bc9d31b9e2d2ffd4d00b1514651",
+  "scope": "Metadata identity only; full dataset content hashes are not asserted by this export."
+}
