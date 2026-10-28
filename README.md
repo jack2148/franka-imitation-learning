@@ -1,8 +1,10 @@
 # Franka Imitation Learning
 
-Geomagic Touch demonstration collection, MuJoCo Franka FR3 manipulation, LeRobot dataset conversion, ACT / Diffusion Policy training wrappers, and fixed-protocol policy evaluation.
+Geomagic Touch demonstration collection, MuJoCo Franka FR3 manipulation, LeRobot dataset construction, ACT / Diffusion Policy training, and controlled evaluation on a frozen TEST50.
 
-**Public v1:** an executable / research-artifact release within the [documented reproducibility limits](REPRODUCIBILITY.md). This project connects ordinary Touch demonstration collection to dataset validation, training interfaces, and spatial / failure-stage analysis for Square manipulation. The reported terminal checkpoints achieved **ACT 54% / Diffusion Policy 86%** on the same frozen TEST50.
+The main Square dataset contains **50 demonstrations / 48,272 frames at 20 Hz**. ACT and Diffusion Policy were evaluated on the **same frozen TEST50 of 50 different initial states**, achieving **27/50** and **43/50** successful rollouts respectively.
+
+These results describe the evaluated checkpoints under the same test protocol and do not establish general algorithm superiority.
 
 **Companion teleoperation system:** [franka-teleoperation](https://github.com/jack2148/franka-teleoperation).
 
@@ -20,18 +22,17 @@ This 12-second excerpt belongs to the historical `square_geomagic_xy50_v1` train
 
 ```mermaid
 flowchart LR
-    A[Geomagic Touch] --> B[Teleoperation demonstrations]
-    B --> C[Dataset validation / LeRobot]
+    A[Geomagic Touch] --> B[Teleoperation Demonstrations]
+    B --> C[Dataset Validation / LeRobot]
     C --> D[ACT / Diffusion Policy]
-    D --> E[Historical frozen TEST50 evaluation]
-    E --> F[Spatial / failure-stage analysis]
+    D --> E[Frozen TEST50 Evaluation]
 ```
 
 The project contribution is the integration and evaluation workflow:
 
-- Demonstration collection, recording, validation, and LeRobot conversion with explicit observation/action alignment.
-- ACT and Diffusion Policy training interfaces, saved configurations, and fixed initial-condition evaluation evidence.
-- Per-state result aggregation, spatial success and failure-stage analysis, and dataset/checkpoint provenance.
+- Demonstration collection, synchronized recording, validation, and LeRobot conversion.
+- ACT and Diffusion Policy training interfaces and saved configurations.
+- Frozen TEST50 evaluation evidence with per-state rollout summaries and dataset/checkpoint provenance.
 
 MuJoCo, LeRobot, and the policy implementations are upstream work; see [third-party provenance](THIRD_PARTY.md). The diagram describes the completed research workflow. The public generic evaluator does **not** include the historical frozen TEST50 campaign launcher.
 
@@ -42,21 +43,25 @@ MuJoCo, LeRobot, and the policy implementations are upstream work; see [third-pa
 | ACT | 300,000 | **27 / 50 = 54%** |
 | Diffusion Policy | 480,000 | **43 / 50 = 86%** |
 
-These are observations for the specified checkpoints and configurations under this fixed protocol, not algorithm-wide superiority. The policies share **50 paired initial states**; their architectures and training setups differ. Development evaluation is separate from TEST50; TEST50 is not a checkpoint-selection or tuning set.
+These are observations for the evaluated checkpoints under the same frozen TEST50 protocol, not an algorithm-wide superiority claim.
+
+TEST50 contains **50 different frozen initial states** shared by both policies. The policies use different architectures and training budgets, so this is not a matched-compute comparison.
+
+TEST50 was used only for final evaluation and was not used for checkpoint selection or tuning.
 
 ![Success, spatial groups, and failure-stage counts on the same frozen TEST50](results/square_test50/figures/public_v1_comparison.png)
 
 [ACT per-state evidence](results/square_test50/act300k_per_state.csv) · [DP per-state evidence](results/square_test50/dp480k_per_state.csv) · [Saved training configurations](configs/square/)
 
-## Spatial and Failure-Stage Analysis
+## Additional Analysis
 
-The shared initial-position map shows which states each policy completed. There are only two states per workspace cell, so cell-level rates are descriptive.
+Additional descriptive analyses were performed on the same frozen TEST50 results, including spatial success maps and failure-stage summaries. There are only two states per workspace cell, so cell-level rates are descriptive.
 
 ![ACT and Diffusion Policy successes across the same TEST50 initial positions](results/square_test50/figures/08_test50_act_dp_xy_success_map.png)
 
 [Failure-stage comparison](results/square_test50/figures/11_test50_failure_stage_comparison.png) · [Stage counts](results/square_test50/tables/failure_stage_summary.csv) · [Detailed result tables](results/square_test50/tables/)
 
-Stage labels summarize observed progress; they do not establish failure causes. The acquisition diagnostic uses sustained lift/proximity, not measured finger contact, and does not alter the task success criterion.
+These analyses are descriptive and do not establish failure causes. The acquisition diagnostic uses sustained lift/proximity as a proxy and does not measure finger contact directly. It does not alter the task success criterion.
 
 ## Dataset and Evaluation Protocol
 
@@ -71,7 +76,7 @@ Stage labels summarize observed progress; they do not establish failure causes. 
 
 This dataset and the main results are separate from the later 50,822-frame MP4 collection. Public v1 preserves numeric 1/2/3 collection annotations without turning them into training weights.
 
-TEST50 uses a frozen 5×5 grid with two initial states per cell, shared state order and inference seeds, and fixed object yaw. Evaluation uses 1,000 Hz physics, 20 Hz policy control, a maximum of 2,400 actions / 120 simulated seconds, and the implemented Square geometric success predicate. See the [full protocol and limitations](REPRODUCIBILITY.md), [dataset identity](results/square_test50/DATASET_IDENTITY.json), and [terminal artifact hashes](results/square_test50/ARTIFACT_MANIFEST.json).
+TEST50 contains **50 different frozen initial states** on a frozen 5×5 grid with two initial states per cell, shared state order and inference seeds, and fixed object yaw. Evaluation uses 1,000 Hz physics, 20 Hz policy control, a maximum of 2,400 actions / 120 simulated seconds, and the implemented Square geometric success predicate. See the [full protocol and limitations](REPRODUCIBILITY.md), [dataset identity](results/square_test50/DATASET_IDENTITY.json), and [terminal artifact hashes](results/square_test50/ARTIFACT_MANIFEST.json).
 
 ## Repository Structure
 
@@ -107,6 +112,8 @@ Follow [INSTALL.md](INSTALL.md) for the paired repository layout, pinned depende
 The installation document's historical OMY asset discussion concerns reference launchers, not a requirement to reconstruct OMY for the Square / ordinary Touch workflow.
 
 ## Reproducibility and Limitations
+
+**Public v1:** an executable / research-artifact release within the [documented reproducibility limits](REPRODUCIBILITY.md). Exact end-to-end reproduction of the historical experiment is not claimed.
 
 - Exact historical TRAIN source reconstruction is incomplete; exact retraining reproduction is not claimed.
 - Full datasets, terminal models, optimizer/RNG states, and trajectory logs remain external, without public download URLs supplied here.
